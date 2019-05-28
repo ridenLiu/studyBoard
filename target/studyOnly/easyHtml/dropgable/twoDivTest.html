@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+
+    <!--引入easyui的样式-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+    <!--引入easyuid的图标-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+    <!--先引入jq-->
+    <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+    <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+    <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+
+    <style type="text/css">
+        .outer_div {
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            display: inline-block;
+            overflow: hidden;
+        }
+
+        .s_div {
+            width: 490px;
+            height: 50px;
+            border: 1px solid blue;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+
+        .indicator {
+            position: absolute;
+            font-size: 9px;
+            width: 10px;
+            height: 10px;
+            display: none;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="outer_div" id="left_div">
+    <div class="s_div" id="s_div01">选项1</div>
+    <div class="s_div" id="s_div02">选项2</div>
+    <div class="s_div" id="s_div03">选项3</div>
+    <div class="s_div" id="s_div04">选项4</div>
+    <div class="s_div" id="s_div05">选项5</div>
+    <div class="s_div" id="s_div06">选项6</div>
+    <div class="s_div" id="s_div07">选项7</div>
+    <div class="s_div" id="s_div08">选项8</div>
+</div>
+<div class="outer_div" id="right_div">
+
+</div>
+<script type="text/javascript">
+    $(function () {
+        var thisEle; // 子div的this对象(排序时插入的上一个对象
+        var indicator;
+        toDragDiv();
+        toContainDiv();
+    });
+
+    function toDragDiv() {
+        indicator = $('<div class="indicator">&gt;&gt;&gt;</div>').appendTo('body');
+        $(".s_div")
+            .draggable({
+                proxy: "clone",
+                revert: true
+            })
+            .droppable({
+                onDragOver: function (event, source) {
+                    console.log("onDragOver's this:", this);
+                    thisEle = this;
+                    indicator.css({
+                        display: 'block',
+                        left: $(this).offset().left - 10,
+                        top: $(this).offset().top + $(this).outerHeight() - 5
+                    });
+                },
+                onDragLeave: function (event, source) {
+                    indicator.hide();
+                }
+            });
+    }
+
+    function toContainDiv() {
+        $(".outer_div").droppable({
+            accept: ".s_div",
+            onDragEnter: function (e, source) {// 进入时
+                $(source).draggable("proxy").css({border: "1px solid red"});
+            },
+            onDragLeave: function (e, source) {// 离开时
+                $(source).draggable("proxy").css({border: "1px solid blue"});
+            },
+            onDrop: function (e, source) {
+                console.log("source2:", source);
+                var childrens = $(this).children();
+                for (var i = 0; i < childrens.length; i++) {
+                    // 判断当前元素的子元素是否含有拖拽元素
+                    if (source.id == childrens[i].id) {
+                        // 获取子div的this对象(排序时插入的上一个对象
+                        if (thisEle) {
+                            $(source).insertAfter(thisEle);
+                            indicator.hide();
+                        }
+                        return;
+                    }
+                }
+                $(this).append(source);
+                indicator.hide();
+            }
+        });
+    }
+
+
+</script>
+</body>
+</html>

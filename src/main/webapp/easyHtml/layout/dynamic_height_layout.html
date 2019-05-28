@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>自适应高度面板</title>
+
+        <!--引入easyui的样式-->
+        <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+        <!--引入easyuid的图标-->
+        <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+        <!--先引入jq-->
+        <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+        <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+        <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+
+    </head>
+    <body>
+        <div id="layout_div" class="easyui-layout" style="height:1000px;width:1600px;">
+            <div title="north" data-options="region:'north'" style="width:100%;height:30%"></div>
+            <div title="south" data-options="region:'south'" style="width:100%;height:30%"></div>
+            <div title="center" data-options="region:'center'" style="width:30%;height:30%">
+                <input type="button" value="添加" onclick="addP()"/>
+                <input type="button" value="删除" onclick="removeP()"/>
+            </div>
+            <div title="west" data-options="region:'west'" style="width:30%;height:30%"></div>
+            <div title="east" data-options="region:'east'" style="width:30%;height:30%"></div>
+        </div>
+    </body>
+
+    <script type="text/javascript">
+        function addP() {
+            $("#layout_div").layout("panel","center").append("<p>new p tag</p>");
+            setHeight();
+        }
+        function removeP() {
+            $("#layout_div").layout("panel","center").find("p:last").remove();
+            setHeight();
+        }
+        function setHeight() {
+            var center = $("#layout_div").layout("panel","center");
+            // 获取center面板高度
+            var oldHeight = center.outerHeight();
+            // 设置center高度为自适应
+            center.panel("resize",{height:'auto'});
+            var newHeight = center.outerHeight();
+            console.log("oldHeight:"+oldHeight+" newHeight:"+newHeight);
+            var test = $("#layout_div").height+newHeight-oldHeight
+            console.log("test:"+test);
+            $("#layout_div").layout("resize",{height:$("#layout_div").height()+newHeight-oldHeight});
+        }
+    </script>
+
+</html>

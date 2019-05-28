@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>放置</title>
+
+    <!--引入easyui的样式-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+    <!--引入easyuid的图标-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+    <!--先引入jq-->
+    <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+    <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+    <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+
+    <style type="text/css">
+        .out_div {
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+            display: inline-block;
+        }
+
+        .sub_div {
+            height: 100px;
+            width: 490px;
+            border: 1px solid blue;
+        }
+    </style>
+
+</head>
+<body>
+<div class="out_div">
+    <div class="sub_div" id="s_div1"></div>
+    <div class="sub_div" id="s_div2"></div>
+    <div class="sub_div" id="s_div3"></div>
+</div>
+<div class="out_div" id="contain_div">
+
+</div>
+<script type="text/javascript">
+    $(".sub_div").draggable({
+        proxy: "clone",
+        revert: true,
+        cursor:"auto"
+    });
+
+    $("#contain_div").droppable({
+        accept: "#s_div1,#s_div2",
+        onDragEnter: function (event, source) {
+            $(source).draggable("options").cursor = "auto";
+            $(source).draggable("proxy").css("border","1px solid green");
+        },
+        onDragLeave:function (event, source) {
+            $(source).draggable("proxy").css("border","1px solid blue");
+        },
+        onDrop:function (event, source) {
+            $(this).append(source);
+        }
+    });
+</script>
+</body>
+</html>

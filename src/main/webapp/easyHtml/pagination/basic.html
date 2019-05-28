@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分页</title>
+    <!--引入easyui的样式-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+    <!--引入easyuid的图标-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+    <!--先引入jq-->
+    <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+    <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+    <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+
+</head>
+<body>
+
+<div id="pagination_div2" class="easyui-pagination" data-options=""></div>
+
+<input id="se_div" class="easyui-searchbox" data-options="menu:'#sub_select',searcher:doSearch"/>
+<div id="sub_select">
+    <div data-options="name:'cat1',iconCls:'icon-ok'">分类1</div>
+    <div data-options="name:'cat2',iconCls:'icon-ik'">分类2</div>
+</div>
+
+</body>
+<script type="text/javascript">
+    $("#pagination_div2").pagination({
+        total: 100,
+        pageList: [10, 25, 50, 100],
+        layout: ['list', 'first', 'prev', 'links', 'next', 'last'],
+        buttons: $("#se_div")
+    });
+
+    function doSearch(value, cateType) {
+        alert("value:" + value + " cateType:" + cateType);
+    }
+</script>
+
+</html>

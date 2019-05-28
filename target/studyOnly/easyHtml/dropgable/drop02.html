@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>排序</title>
+
+    <!--引入easyui的样式-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+    <!--引入easyuid的图标-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+    <!--先引入jq-->
+    <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+    <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+    <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+
+    <style type="text/css">
+        .lis {
+            width: 500px;
+            height: 50px;
+            border: 1px solid red;
+            list-style: none;
+            margin-top: 5px;
+        }
+
+        #out_ul {
+            width: 600px;
+            height: 300px;
+            border: 1px solid green;
+        }
+
+        .indicator {
+            position: absolute;
+            font-size: 9px;
+            width: 10px;
+            height: 10px;
+            display: none;
+            color: red;
+        }
+
+    </style>
+
+</head>
+<body>
+<ul id="out_ul">
+    <li class="lis" id="lis1">第一项</li>
+    <li class="lis" id="lis2">第二项</li>
+    <li class="lis" id="lis3">第三项</li>
+    <li class="lis" id="lis4">第四项</li>
+    <li class="lis" id="lis5">第五项</li>
+</ul>
+<script type="text/javascript">
+    $(function () {
+        var indicator = $('<div class="indicator">&gt;&gt;&gt;</div>').appendTo('body');
+        $(".lis")
+            .draggable({revert: true})
+            .droppable({
+                onDragOver:function (event,source) {
+                    indicator.css({
+                        display:'block',
+                        left:$(this).offset().left-10,
+                        top:$(this).offset().top+$(this).outerHeight()-5
+                    });
+                },
+                onDragLeave:function (event, source) {
+                    indicator.hide();
+                },
+                onDrop:function (event,source) {
+                    console.log("this:",this);
+                    $(source).insertAfter(this);
+                    indicator.hide();
+                }
+            })
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>搜索框</title>
+
+    <!--引入easyui的样式-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+    <!--引入easyuid的图标-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+    <!--先引入jq-->
+    <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+    <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+    <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+
+</head>
+<body>
+<!--通过属性调用方法-->
+<input id="sea_input" class="easyui-searchbox" data-options="searcher:doSearchFun" style="width:300px;"/>
+<!--流式搜索框-->
+<!--<input class="easyui-searchbox" style="width:30%;"/>-->
+
+<script type="text/javascript">
+    function doSearchFun(value) {
+        alert("value:"+value);
+    }
+</script>
+
+</body>
+</html>

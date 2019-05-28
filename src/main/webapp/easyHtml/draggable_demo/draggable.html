@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拽</title>
+    <!--引入easyui的样式-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+    <!--引入easyuid的图标-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+    <!--先引入jq-->
+    <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+    <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+    <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+</head>
+<body>
+<!--使用类方式-->
+
+<div class="easyui-draggable" style="width:100px;height:100px;border:solid 1px red;">
+    类方式可拖拽
+</div>
+<div id="dragDiv" style="width:100px;height:100px;border:solid 1px red;">
+    js方式可拖拽
+</div>
+<div class="easyui-draggable" data-options="handle:'#title01'" style="width:100px;height:100px;border:solid 1px red;">
+    类方式局部可拖拽
+    <div id="title01" style="background-color: pink;">拖拽区域</div>
+</div>
+<div id="dragDiv2" style="width:100px;height:100px;border:solid 1px red;">
+    js方式局部可拖拽
+    <div id="title02" style="background-color: pink;">拖拽区域</div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#dragDiv").draggable();
+        $("#dragDiv2").draggable({
+            handle:'#title02'
+        });
+    })
+
+</script>
+</body>
+</html>

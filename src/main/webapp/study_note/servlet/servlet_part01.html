@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>servlet 笔记part1</title>
+    <style type="text/css">
+        body {
+            background-color: #2e2f2a;
+            color: white;
+            font-family: "Courier New";
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        h1 {
+            color: pink;
+        }
+
+        h2 {
+            color: yellowgreen;
+        }
+
+        div {
+            border: 1px solid white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>1. Servlet</h1>
+<h2>1） 什么是Servlet?</h2>
+<hr/>
+<p>
+    1.狭义上它是实现了servlet接口的java类<br/>
+    2.Servlet是运行在Web服务器上的代码片段(组件),用户处理http请求,是SUN公司定义的javaEE规范
+</p>
+<h2>2) 为什么要是用servlet?</h2>
+<hr/>
+<p>
+    可以简化Web服务端的开发,将复杂的网络通信细节(网络协议)封装到webService中,开发者仅需要提供servlet代码就可以完成Web服务端的开发
+</p>
+
+<h1>2. 如何写一个servlet</h1>
+<h2>1) 安装一个web服务器(前提)</h2>
+<hr/>
+<h2>2) 如何写一个servlet,并部署到Tomcat上</h2>
+<hr/>
+<p>
+    1. 创建一个java类,并让其实现servlet接口.<br/>
+<div>
+    注:<br/>
+    1.1 该接口中一共提供了5个抽象方法<br/>
+    1.2 当前只需要使用service(ServletRequest,ServletResponse)<br/>
+    1.3 向response对象中添加响应信息：Helle World <br/>
+</div>
+2. 在web.xml中配置该java类,让webservice能够找到对应的servlet.<br/>
+<div style="color:#faff51">
+    &lt;web-app&gt;<br/>
+    &lt;display-name&gt;Archetype Created Web Application&lt;/display-name&gt;<br/>
+    &lt;servlet&gt;<br/>
+    &lt;servlet-name&gt;RidenServlet&lt;/servlet-name&gt;<br/>
+    &lt;servlet-class&gt;com.riden.tomtest.RidenServlet&lt;/servlet-class&gt;<br/>
+    &lt;load-on-startup&gt;1&lt;/load-on-startup&gt;<br/>
+    &lt;/servlet&gt;<br/>
+    &lt;servlet-mapping&gt;<br/>
+    &lt;servlet-name&gt;RidenServlet&lt;/servlet-name&gt;<br/>
+    &lt;url-pattern&gt;/hello&lt;/url-pattern&gt;<br/>
+    &lt;/servlet-mapping&gt;<br/>
+    &lt;/web-app&gt;<br/>
+</div>
+<img src="pic02.png" style="width: 50%;"/><br/>
+3. 将项目部署到tomcat上,并运行tomcat.
+<h1>3. 实现Servlet类的另一种方案</h1>
+<p>声明一个类，继承HttpServlet</p>
+<h2>1) 为什么可以继承HttpServlet</h2>
+<hr/>
+<p>
+    1. HttpServlet是Sun公司提供的Servlet接口的一个实现类<br/>
+    2. HttpServlet实现了Servlet接口中所有的抽象方法<br/>
+    3. 开发者仅需要继承该类，重写所需使用的方法即可<br/>
+</p>
+<h1>4. servlet的执行流程</h1>
+<img src="pic03.png" style="width: 50%"><br/>
+<p>
+    1. 浏览器根据url的域名+端口号和服务器建立连接<br/>
+    2. 浏览器生成请求数据包，并发送请求数据包<br/>
+    3. 服务器收到请求数据包，解析请求数据包，创建request和response对象<br/>
+    4. 服务器将请求数据存入request对象中<br/>
+    5. 服务器调用Servlet的service()，将request和response传入<br/>
+    6. Servlet的service()从request中获取请求数据，将生成的响应数据写入response中<br/>
+    7. 服务器从response中读取响应数据，生成响应数据包，发送给浏览器<br/>
+    8. 浏览器解析响应数据包，在页面上显示响应内容<br/>
+</p>
+<h1>5. Web服务器和Web容器的关系</h1>
+<h2>1) Web服务器:</h2>
+<hr/>
+<p>指可以接受用户请求,为用户提供响应的程序</p>
+<h2>2) Web容器</h2>
+<hr/>
+<p>可以为servlet提供运行环境支撑的程序<br/>
+    tomcat既是Web服务器也是Web容器
+</p>
+<h1>6. 在servlet中获取请求参数</h1>
+<h2>为什么在servlet中获取?</h2>
+<hr/>
+<p>由Web服务器负责从请求数据包中解析请求数据，封装好发送给Servlet，开发者在Servlet仅需要调用API，就可以获取数据</p>
+<h2>如何获取?</h2>
+<hr/>
+<p>1. 通过request对象获取<br/>
+    2. request对象提供了一个API: String value = request.getParameter(String name);<br/>
+    <img src="pic04.png" width="50%"/>
+</p>
+<h1>7. Servlet获取请求参数的中文乱码问题</h1>
+<p>用户提交表单到服务器,servlet接收到底是乱码</p>
+<h2>1) 为什么产生乱码</h2><hr/>
+<p>
+    1. 浏览器对表单内容编码时,所使用的编码规则是html头标签中charset属性是一致的,当前是UTF-8<br/>
+    2. tomcat对请求参数进行解码是默认使用的是ISO8859-1<br/>
+    3. 编码规则和解码规则不一致导致乱码问题
+</p><br/>
+<img src="pic05.png" width="941"/>
+<h2>2) 如何解决乱码</h2><hr/>
+<p>可以使用request API来解决乱码</p>
+<div>
+    request.setCharacterEncoding("UTF-8");<br/>
+    注:<br/>
+    1. 该方法必须在调用getParameter()方法之前调用才生效<br/>
+    2. 该方法只对post请求有效,因为该方法只能作用于保留在请求实体中的数据,而get请求实在请求行的,所以API是无效的
+</div>
+<p>对于get请求,tomcat提供了另一种方案</p>
+<div>
+    在Tomcat的配置文件夹中添加一个配置 URIEncoding="UTF-8"<br/>
+    文件位置: Tomcat/conf/server.xml<br/>
+    对应标签:&lt;Connector URIEncoding="UTF-8" connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443"/&gt;<br/>
+    以上操作仅适用于Tomcat7版本，Tomcat8在升级时已经解决了该问题<br/>
+</div>
+<p>还有一种手动编码</p>
+<img src="pic06.png" width="918"/>
+<h1>8. HTTP协议的请求方式</h1>
+<p>http将请求方式分为8种,其中最常用的用get和post</p>
+<h2>1）为什么要分成多种请求方式？</h2><hr/>
+<p>不同的请求方式所适用的场景及特点不同的，有针对性的使用可以提高请求的效率</p>
+<h2>2) get请求</h2><hr/>
+<p>
+    1. get请求代表客户端向服务端获取数据<br/>
+    2. 特点:<br/>
+    请求参数直接拼接在url后面
+</p>
+</body>
+</html>

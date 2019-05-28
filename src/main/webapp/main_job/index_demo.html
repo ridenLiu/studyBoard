@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义查询</title>
+
+    <!--引入easyui的样式-->
+    <link rel="stylesheet" type="text/css" href="../easyUIs/themes/default/easyui.css">
+    <!--引入easyuid的图标-->
+    <link rel="stylesheet" type="text/css" href="../easyUIs/themes/icon.css">
+    <!--先引入jq-->
+    <script type="text/javascript" src="../easyUIs/jquery.min.js"></script>
+    <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+    <script type="text/javascript" src="../easyUIs/jquery.easyui.min.js"></script>
+
+    <style type="text/css">
+
+    </style>
+
+</head>
+<body class="easyui-layout">
+
+<div title="数据源选择" data-options="region:'west'" style="width:200px;">
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">新井产量月数据</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">开发综合月数据</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">采出井单井月数</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">注入井单井月数</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">不同采油方式月</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">不同注入方式月</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">产油构成月数据</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">注入构成月数据</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">采出井单井措施</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">注入井单井措施</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">采出井单井日数</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">注入井单井日数</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">油井日数据</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">水井日数据</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">天然气分析化验</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">新查询测试</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">询测试</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">保养提示</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">修理记录</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">西南测试</a>
+    <a href="#" class="easyui-linkbutton" style="width:195px;height: 40px">tuha</a>
+</div>
+<div title="自定义查询" data-options="region:'center'" style="">
+
+    <!--条件按钮-->
+    <div>
+        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="changeDialog(1)"
+           style="width:300px;height: 50px">查询条件设置</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="changeDialog(0)"
+           style="width:300px;height: 50px">查询结果设置</a>
+        <a href="javascript:void(0)" class="easyui-linkbutton" onclick="search_res()" style="width:300px;height: 50px">查询</a>
+    </div>
+    <!--显示数据表-->
+    <div style="width:100%;height: 100%;border: 5px solid rgba(0, 0, 0, 0.6);">
+        <table id="show_grid" border="1" width="100%"></table>
+
+    </div>
+
+    <!--查询结果设置对话框-->
+    <div id="dialog0" class="easyui-dialog" title="查询结果设置" style="width:500px;height:500px;">
+        <div id="label_div" style="width: 100%;height:100%;font-size: 30px">
+            <label><input name="check_box" type="checkbox" value="id-1" checked
+                          onchange="check_change(this.checked,this.value)"/>厂名</label>
+            <label><input name="check_box" type="checkbox" value="id-2" checked
+                          onchange="check_change(this.checked,this.value)"/>队名</label>
+            <label><input name="check_box" type="checkbox" value="id-3" checked
+                          onchange="check_change(this.checked,this.value)"/>井名</label>
+            <label><input name="check_box" type="checkbox" value="id-4" checked
+                          onchange="check_change(this.checked,this.value)"/>采油方式</label>
+            <label><input name="check_box" type="checkbox" value="id-5" checked
+                          onchange="check_change(this.checked,this.value)"/>驱动方式</label>
+            <label><input name="check_box" type="checkbox" value="id-6" checked
+                          onchange="check_change(this.checked,this.value)"/>井别</label>
+            <label><input name="check_box" type="checkbox" value="id-7" checked
+                          onchange="check_change(this.checked,this.value)"/>油气品种</label>
+            <label><input name="check_box" type="checkbox" value="id-8" checked
+                          onchange="check_change(this.checked,this.value)"/>日产油量</label>
+        </div>
+    </div>
+    <!--查询条件设置对话框-->
+    <div id="dialog1" class="easyui-dialog" title="查询条件设置" style="width:800px;height:500px;">
+        <table width="100%" border="1">
+            <thead>
+            <tr>
+                <td>条件名称</td>
+                <td>操作符</td>
+                <td>值</td>
+                <td>连接符</td>
+                <td>操作</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td width="15%">厂名</td>
+                <td width="15%">
+                    <select class="easyui-combobox" name="dept" style="width:100px">
+                        <option value="aa">等于</option>
+                        <option>不等于</option>
+                        <option>大于</option>
+                        <option>大于等于</option>
+                        <option>小于</option>
+                        <option>小于等于</option>
+                        <option>包含</option>
+                        <option>不包含</option>
+                        <option>like</option>
+                        <option>not like</option>
+                        <option>is null</option>
+                    </select>
+                </td>
+                <td width="30%">
+                    <input class="easyui-textbox" style="width: 100%"/>
+                </td>
+                <td width="15%">
+                    <select class="easyui-combobox" name="dept" style="width:100px">
+                        <option value="aa">and</option>
+                        <option>or</option>
+                    </select>
+                </td>
+                <td width="15%">
+                    <a href="#" class="easyui-linkbutton" style="width:100px;">隐藏</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script type="application/javascript">
+
+    $(function () {
+        // 初始化对话窗口
+        initDialog();
+        // 初始化grid
+        initGrid();
+    });
+
+    function search_res() {
+        $("#dialog0").dialog('close');
+        $("#dialog1").dialog('close');
+        alert("执行搜索");
+    }
+
+    //显示隐藏列
+    function check_change(isCheck, colField) {
+        if (isCheck) {
+            $('#show_grid').datagrid('showColumn', colField);
+        } else {
+            $('#show_grid').datagrid('hideColumn', colField);
+        }
+    }
+
+    function change_check_box(type) {
+        var check_boxs = document.getElementsByName("check_box");
+        for (var i = 0; i < check_boxs.length; i++) {
+            check_boxs[i].checked = type;
+            check_change(check_boxs[i].checked, check_boxs[i].value);
+        }
+    }
+
+    /**
+     * 初始化gird
+     */
+    function initGrid() {
+        // 模拟数据
+        var dataGridColumns = [[
+            {field: "id-1", width: 150, align: 'center', title: "厂名"},
+            {field: "id-2", width: 150, align: 'center', title: "队名"},
+            {field: "id-3", width: 150, align: 'center', title: "井名"},
+            {field: "id-4", width: 150, align: 'center', title: "采油方式"},
+            {field: "id-5", width: 150, align: 'center', title: "驱动方式"},
+            {field: "id-6", width: 150, align: 'center', title: "井别"},
+            {field: "id-7", width: 150, align: 'center', title: "油气品种"},
+            {field: "id-8", width: 150, align: 'center', title: "日产油量"}
+        ]];
+
+        $("#show_grid").datagrid({
+            url: '',
+            method: 'post',
+            columns: dataGridColumns,
+        })
+    }
+
+    /**
+     * 初始化窗口
+     */
+    function initDialog() {
+        // 初始化<查询条件设置>窗口,默认关闭设置窗口
+        $("#dialog1").dialog({
+            closed: true,
+            buttons: [
+                {
+                    iconCls: 'icon-add',
+                    text: '添加条件',
+                    handler: function () {
+                        alert("执行添加条件");
+                    }
+                },
+                {
+                    iconCls: 'icon-save',
+                    text: '保存查询',
+                    handler: function () {
+                        alert("保存查询");
+                    }
+                }
+                , {
+                    iconCls: 'icon-more',
+                    text: '我的收藏',
+                    handler: function () {
+                        alert("显示收藏");
+                    }
+                }
+            ]
+        });
+
+        // 初始化<查询结果设置>窗口,默认关闭设置窗口
+        $("#dialog0").dialog({
+            closed: true,
+            buttons: [
+                {
+                    iconCls: 'icon-ok',
+                    text: '全选',
+                    handler: function () {
+                        change_check_box(true);
+
+                    }
+                },
+                {
+                    iconCls: 'icon-cancel',
+                    text: '取消全选',
+                    handler: function () {
+                        change_check_box(false);
+                    }
+                }
+            ]
+        });
+
+    }
+
+    /**
+     * 改变对话窗口开关状态
+     * @param type 窗口id,用于区别多个窗口
+     */
+    function changeDialog(type) {
+
+        // 获取窗口的开关状态
+        var dialog0_state = $("#dialog0").parent().css('display');
+        var dialog1_state = $("#dialog1").parent().css('display');
+        // alert(dialog0_state === 'none');
+        // 改变窗口开关
+        if (type === 0) {
+            if (dialog0_state === 'none') {
+                $("#dialog0").dialog('open');
+                $("#dialog1").dialog('close');
+            } else {
+                $("#dialog0").dialog('close');
+            }
+        } else {
+            if (dialog1_state === 'none') {
+                $("#dialog1").dialog('open');
+                $("#dialog0").dialog('close');
+            } else {
+                $("#dialog1").dialog('close');
+            }
+        }
+    }
+</script>
+</body>
+</html>

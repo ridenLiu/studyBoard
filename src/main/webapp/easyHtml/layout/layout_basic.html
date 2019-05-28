@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>布局</title>
+
+        <!--引入easyui的样式-->
+        <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+        <!--引入easyuid的图标-->
+        <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+        <!--先引入jq-->
+        <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+        <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+        <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+
+
+    </head>
+    <body>
+        <div class="easyui-layout" style="width:1500px;height:1000px">
+            <div title="north" data-options="region:'north'" style="height:200px;width:200px"></div>
+            <div title="south" data-options="region:'south'" style="height:200px;width:200px"></div>
+            <div title="west" data-options="region:'west'" style="height:200px;width:200px"></div>
+            <div title="east" data-options="region:'east'" style="height:200px;width:200px"></div>
+            <div title="center" data-options="region:'center'" style="height:200px;width:200px"></div>
+        </div>
+    </body>
+</html>

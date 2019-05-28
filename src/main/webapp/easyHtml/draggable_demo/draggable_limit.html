@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拽限制</title>
+
+    <!--引入easyui的样式-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/default/easyui.css">
+    <!--引入easyuid的图标-->
+    <link rel="stylesheet" type="text/css" href="../../easyUIs/themes/icon.css">
+    <!--先引入jq-->
+    <script type="text/javascript" src="../../easyUIs/jquery.min.js"></script>
+    <!--在引入easyui js,这个是总包,也可以引入局部包减少流量-->
+    <script type="text/javascript" src="../../easyUIs/jquery.easyui.min.js"></script>
+
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+<div id="parent_div">
+    <div id="sub_div">
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#sub_div").draggable(
+            {
+                onDrag: function (ele) {// ele为一个鼠标移动事件
+                    var s_div = ele.data; // 其中data为移动的对象,也就是div
+                    var p_div = $(s_div.parent); //这样才能获取一个jq对象!
+                    var p_width = p_div.outerWidth();
+                    var p_height = p_div.outerHeight();
+                    if(s_div.left<=0){
+                        s_div.left = p_div.offsetLeft+1;
+                    }
+                    if(s_div.top<=0){
+                        s_div.top = p_div.offsetTop+1;
+                    }
+                    if(s_div.left>(p_width-s_div.width+p_div.offsetLeft)){
+                        s_div.left = p_width-s_div.width;
+                    }
+                    console.log("left:",s_div.left);
+                }
+            }
+        );
+
+    })
+</script>
+</body>
+</html>
