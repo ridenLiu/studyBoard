@@ -9,18 +9,12 @@ import java.util.List;
 public class PureTest {
 
     public static void main(String[] args) {
-        String str = "<web-app>\n" +
-                "<display-name>Archetype Created Web Application</display-name>\n" +
-                "<servlet>\n" +
-                "  <servlet-name>RidenServlet</servlet-name>\n" +
-                "  <servlet-class>com.riden.tomtest.RidenServlet</servlet-class>\n" +
-                "  <load-on-startup>1</load-on-startup>\n" +
-                "</servlet>\n" +
-                "<servlet-mapping>\n" +
-                "  <servlet-name>RidenServlet</servlet-name>\n" +
-                "  <url-pattern>/hello</url-pattern>\n" +
-                "</servlet-mapping>\n" +
-                "</web-app>";
+        String str = "  <context-param>\n" +
+                "                <param-name>encode</param-name>\n" +
+                "                <param-value>UTF-8</param-value>\n" +
+                "          </context-param>\n" +
+                "\n" +
+                "        String value=sc.getInitParameter(name);";
         str = getTagString(str);
         System.out.println(str);
 

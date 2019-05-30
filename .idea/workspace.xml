@@ -6,7 +6,28 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="" />
+    <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="idea 测试代码提交">
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/String/StringDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/String/StringDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riden/tomtest/MyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/riden/tomtest/MyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/riden/tomtest/RidenServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/riden/tomtest/RidenServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demos/PureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/demos/PureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/demos/ThinkInJava_demo01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/pic01.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/image/pic01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/pic02.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/image/pic02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/pic03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/image/pic03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/pic04.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/image/pic04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/pic05.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/image/pic05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/pic06.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/image/pic06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/servlet_part01.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/study_note/servlet/servlet_part01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/riden/tomtest/RidenServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/riden/tomtest/RidenServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demos/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demos/PureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/demos/PureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demos/TerminalCondition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/demos/ThinkInJava_demo01.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +38,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/study_note/servlet/servlet_part01.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/API/String/StringDemo02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="548">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
-                <element signature="e#1206#1227#0" expanded="true" />
-                <element signature="e#1832#1851#0" expanded="true" />
-                <element signature="e#2162#2180#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/System.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="979" column="41" lean-forward="true" selection-start-line="979" selection-start-column="41" selection-end-line="979" selection-end-column="41" />
+              <folding>
+                <element signature="e#23072#23073#0" expanded="true" />
+                <element signature="e#23112#23113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -48,6 +89,7 @@
       <find>equals</find>
       <find>toString</find>
       <find>border</find>
+      <find>service</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -56,10 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/easyHtml/panel/basic.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/easyHtml/layout/dynamic_height_layout.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/easyHtml/tabs/tabs_basicx.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/easyHtml/tabs/tabs_js.html" />
         <option value="$PROJECT_DIR$/src/main/java/exercise/Login_01.java" />
         <option value="$PROJECT_DIR$/src/main/java/exercise/date_0507/Pascal_s_Triangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/exercise/date_0507/NPeople.java" />
@@ -99,14 +137,18 @@
         <option value="$PROJECT_DIR$/src/main/webapp/easyHtml/panel/panel_practice.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/easyHtml/dropgable/twoDivTest02.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/main_job/index_demo.html" />
-        <option value="$PROJECT_DIR$/src/main/java/demos/PureTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/study_note/servlet/servlet_part01.html" />
         <option value="$PROJECT_DIR$/src/main/java/servletdemos/RidenServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/riden/tomtest/RidenServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/study_note/diary.txt" />
         <option value="$PROJECT_DIR$/src/main/webapp/study_note/diary.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riden/tomtest/RidenServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riden/tomtest/MyFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/demos/PureTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/riden/tomtest/MyListener.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/study_note/servlet/servlet_part01.html" />
+        <option value="$PROJECT_DIR$/src/main/java/API/String/StringDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/API/String/StringDemo02.java" />
       </list>
     </option>
   </component>
@@ -126,9 +168,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="width" value="943" />
-    <option name="height" value="1087" />
+    <option name="x" value="886" />
+    <option name="y" value="16" />
+    <option name="width" value="1222" />
+    <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,10 +186,95 @@
               <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
               <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="API" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tomtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="study_note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyOnly" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="study_note" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyOnly" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -155,8 +282,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559035822815" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myblog" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559208318402" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lyy/mcqkjxx_bak" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -165,15 +292,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet\image" />
+      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\datedemos" />
+      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\draggable_demo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet" />
       <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\java\thread" />
       <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\WEB-INF\lib" />
       <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyUIs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\datedemos" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\draggable_demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,21 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tom 9.0.16">
-    <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.date_0115.CopyFile" />
-      <module name="studyOnly" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercise.date_0115.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringDemo02.methodString">
     <configuration name="PureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="demos.PureTest" />
       <module name="studyOnly" />
@@ -217,13 +331,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise.date_0115.ThreadDemo01" />
+    <configuration name="StringDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="API.String.StringDemo02" />
       <module name="studyOnly" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.date_0115.*" />
+          <option name="PATTERN" value="API.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,17 +351,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CopyFile.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringDemo01.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studyOnly" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise.date_0115.*" />
+          <option name="PATTERN" value="API.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exercise.date_0115" />
-      <option name="MAIN_CLASS_NAME" value="exercise.date_0115.CopyFile" />
+      <option name="PACKAGE_NAME" value="API.String" />
+      <option name="MAIN_CLASS_NAME" value="API.String.StringDemo01" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo01.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studyOnly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API.String" />
+      <option name="MAIN_CLASS_NAME" value="API.String.StringDemo01" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo02.methodString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studyOnly" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.String.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="API.String" />
+      <option name="MAIN_CLASS_NAME" value="API.String.StringDemo02" />
+      <option name="METHOD_NAME" value="methodString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -268,48 +416,6 @@
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="hello.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/hello.html" />
-      <deployment>
-        <artifact name="studyOnly:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/studyOnly_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="hello_html_studyOnly" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="8765" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="studyOnly:war exploded" />
-        </option>
       </method>
     </configuration>
     <configuration name="tom 9.0.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.16" ALTERNATIVE_JRE_ENABLED="false">
@@ -388,20 +494,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThreadDemo01" />
-      <item itemvalue="Application.CopyFile" />
       <item itemvalue="Application.PureTest" />
-      <item itemvalue="JUnit.CopyFile.test" />
       <item itemvalue="Tomcat Server.tom 9.0.16" />
-      <item itemvalue="Tomcat Server.hello.html" />
+      <item itemvalue="JUnit.StringDemo01.test" />
+      <item itemvalue="JUnit.StringDemo01.test3" />
+      <item itemvalue="Application.StringDemo02" />
+      <item itemvalue="JUnit.StringDemo02.methodString" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Tomcat Server.hello.html" />
+        <item itemvalue="JUnit.StringDemo02.methodString" />
+        <item itemvalue="Application.StringDemo02" />
+        <item itemvalue="JUnit.StringDemo01.test3" />
+        <item itemvalue="JUnit.StringDemo01.test" />
         <item itemvalue="Application.PureTest" />
-        <item itemvalue="Application.CopyFile" />
-        <item itemvalue="Application.ThreadDemo01" />
-        <item itemvalue="JUnit.CopyFile.test" />
       </list>
     </recent_temporary>
   </component>
@@ -460,49 +566,63 @@
       <workItem from="1558941708031" duration="6689000" />
       <workItem from="1559002223664" duration="2862000" />
       <workItem from="1559007338830" duration="1761000" />
-      <workItem from="1559029643867" duration="6168000" />
+      <workItem from="1559029643867" duration="6227000" />
+      <workItem from="1559088740386" duration="4138000" />
+      <workItem from="1559096242148" duration="13997000" />
+      <workItem from="1559175206273" duration="2138000" />
+      <workItem from="1559179127875" duration="1730000" />
+      <workItem from="1559194657983" duration="13052000" />
     </task>
+    <task id="LOCAL-00001" summary="idea 测试代码提交">
+      <created>1559035858495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559035858495</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 03m 48s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 10m 07s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 06m 58s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 10m 22s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 08m 18s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 13m 01s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 11m 21s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 13m 13s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 12m 37s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 13m 52s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 15m 48s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 14m 26s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 27m 26s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 14m 45s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 27m 53s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 24m 05s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 28m 50s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 24m 37s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CopyFile_test - 2019.05.17 at 11h 32m 59s.xml">
-      <configuration name="CopyFile.test" configurationId="JUnit" />
+    <history-entry file="StringDemo02_methodString - 2019.05.30 at 17h 24m 58s.xml">
+      <configuration name="StringDemo02.methodString" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230931000" />
+    <option name="totallyTimeSpent" value="266045000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16427784" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16923925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -512,8 +632,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.342918" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36634716" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29637527" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36567163" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -541,6 +661,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea 测试代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="idea 测试代码提交" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
@@ -551,77 +675,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercise/date_0115/ThreadDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/exercise/date_0115/CopyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/form/form_data1.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/form/validateonsubmit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/form/load.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/form/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/textbox/basic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/textbox/button.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/textbox/clearicon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/textbox/custom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/textbox/fluid.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/textbox/icons.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/textbox/multiline.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/demo/passwordbox/validatepassword.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -798,13 +851,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/easyUIs/jquery.easyui.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/demos/PureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/servletdemos/RidenServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/hello.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
@@ -833,13 +879,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/study_note/diary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/study_note/diary.txt" />
     <entry file="jar://$USER_HOME$/java_source/apache-tomcat-9.0.16/lib/servlet-api.jar!/javax/servlet/ServletRequestWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -854,33 +894,233 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/study_note/diary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java_source/apache-tomcat-9.0.16/lib/servlet-api.jar!/javax/servlet/ServletConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java_source/apache-tomcat-9.0.16/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6372">
+          <caret line="252" column="43" selection-start-line="252" selection-start-column="43" selection-end-line="252" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/riden/tomtest/RidenServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="270">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/study_note/diary.html">
+    <entry file="jar://$USER_HOME$/java_source/apache-tomcat-9.0.16/lib/servlet-api.jar!/javax/servlet/http/Cookie.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        <state relative-caret-position="513">
+          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java_source/apache-tomcat-9.0.16/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java_source/apache-tomcat-9.0.16/lib/servlet-api.jar!/javax/servlet/Servlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/demos/PureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riden/tomtest/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="73" lean-forward="true" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/java_source/apache-tomcat-9.0.16/lib/servlet-api.jar!/javax/servlet/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/riden/tomtest/MyListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/study_note/servlet/servlet_part01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="746" lean-forward="true" selection-start-line="746" selection-end-line="746" />
           <folding>
-            <element signature="e#1206#1227#0" expanded="true" />
-            <element signature="e#1832#1851#0" expanded="true" />
-            <element signature="e#2162#2180#0" expanded="true" />
+            <element signature="e#13714#13718#0" expanded="true" />
+            <element signature="e#13732#13736#0" expanded="true" />
+            <element signature="e#13741#13745#0" expanded="true" />
+            <element signature="e#13780#13784#0" expanded="true" />
+            <element signature="e#13789#13793#0" expanded="true" />
+            <element signature="e#13808#13812#0" expanded="true" />
+            <element signature="e#13814#13818#0" expanded="true" />
+            <element signature="e#13834#13838#0" expanded="true" />
+            <element signature="e#13841#13845#0" expanded="true" />
+            <element signature="e#13860#13864#0" expanded="true" />
+            <element signature="e#15095#15099#0" expanded="true" />
+            <element signature="e#15105#15109#0" expanded="true" />
+            <element signature="e#15114#15118#0" expanded="true" />
+            <element signature="e#15129#15133#0" expanded="true" />
+            <element signature="e#15138#15142#0" expanded="true" />
+            <element signature="e#15154#15158#0" expanded="true" />
+            <element signature="e#15159#15163#0" expanded="true" />
+            <element signature="e#15170#15174#0" expanded="true" />
+            <element signature="e#15176#15180#0" expanded="true" />
+            <element signature="e#15194#15198#0" expanded="true" />
+            <element signature="e#15203#15207#0" expanded="true" />
+            <element signature="e#15218#15222#0" expanded="true" />
+            <element signature="e#15227#15231#0" expanded="true" />
+            <element signature="e#15242#15246#0" expanded="true" />
+            <element signature="e#15247#15251#0" expanded="true" />
+            <element signature="e#15266#15270#0" expanded="true" />
+            <element signature="e#15491#15495#0" expanded="true" />
+            <element signature="e#15509#15513#0" expanded="true" />
+            <element signature="e#16077#16081#0" expanded="true" />
+            <element signature="e#16087#16091#0" expanded="true" />
+            <element signature="e#16243#16264#0" expanded="true" />
+            <element signature="e#16236#16240#0" expanded="true" />
+            <element signature="e#16246#16250#0" expanded="true" />
+            <element signature="e#16255#16259#0" expanded="true" />
+            <element signature="e#16271#16275#0" expanded="true" />
+            <element signature="e#16285#16289#0" expanded="true" />
+            <element signature="e#16302#16306#0" expanded="true" />
+            <element signature="e#16311#16315#0" expanded="true" />
+            <element signature="e#16326#16330#0" expanded="true" />
+            <element signature="e#16340#16344#0" expanded="true" />
+            <element signature="e#16356#16360#0" expanded="true" />
+            <element signature="e#16365#16369#0" expanded="true" />
+            <element signature="e#16381#16385#0" expanded="true" />
+            <element signature="e#16402#16406#0" expanded="true" />
+            <element signature="e#16419#16423#0" expanded="true" />
+            <element signature="e#16428#16432#0" expanded="true" />
+            <element signature="e#16455#16459#0" expanded="true" />
+            <element signature="e#16464#16468#0" expanded="true" />
+            <element signature="e#16478#16482#0" expanded="true" />
+            <element signature="e#16491#16495#0" expanded="true" />
+            <element signature="e#16505#16509#0" expanded="true" />
+            <element signature="e#16517#16521#0" expanded="true" />
+            <element signature="e#16532#16536#0" expanded="true" />
+            <element signature="e#16545#16549#0" expanded="true" />
+            <element signature="e#16560#16564#0" expanded="true" />
+            <element signature="e#16569#16573#0" expanded="true" />
+            <element signature="e#16585#16589#0" expanded="true" />
+            <element signature="e#16594#16598#0" expanded="true" />
+            <element signature="e#16609#16613#0" expanded="true" />
+            <element signature="e#16618#16622#0" expanded="true" />
+            <element signature="e#16632#16636#0" expanded="true" />
+            <element signature="e#16645#16649#0" expanded="true" />
+            <element signature="e#16659#16663#0" expanded="true" />
+            <element signature="e#16671#16675#0" expanded="true" />
+            <element signature="e#16686#16690#0" expanded="true" />
+            <element signature="e#16699#16703#0" expanded="true" />
+            <element signature="e#16714#16718#0" expanded="true" />
+            <element signature="e#16721#16725#0" expanded="true" />
+            <element signature="e#16737#16741#0" expanded="true" />
+            <element signature="e#16746#16750#0" expanded="true" />
+            <element signature="e#16761#16765#0" expanded="true" />
+            <element signature="e#16766#16770#0" expanded="true" />
+            <element signature="e#16777#16781#0" expanded="true" />
+            <element signature="e#17287#17291#0" expanded="true" />
+            <element signature="e#17303#17307#0" expanded="true" />
+            <element signature="e#17312#17316#0" expanded="true" />
+            <element signature="e#17329#17333#0" expanded="true" />
+            <element signature="e#17338#17342#0" expanded="true" />
+            <element signature="e#17357#17361#0" expanded="true" />
+            <element signature="e#17366#17370#0" expanded="true" />
+            <element signature="e#17386#17390#0" expanded="true" />
+            <element signature="e#17395#17399#0" expanded="true" />
+            <element signature="e#17416#17420#0" expanded="true" />
+            <element signature="e#18258#18262#0" expanded="true" />
+            <element signature="e#18275#18279#0" expanded="true" />
+            <element signature="e#18296#18300#0" expanded="true" />
+            <element signature="e#18310#18314#0" expanded="true" />
+            <element signature="e#18320#18324#0" expanded="true" />
+            <element signature="e#18335#18339#0" expanded="true" />
+            <element signature="e#18356#18360#0" expanded="true" />
+            <element signature="e#18371#18375#0" expanded="true" />
+            <element signature="e#18380#18384#0" expanded="true" />
+            <element signature="e#18396#18400#0" expanded="true" />
+            <element signature="e#18411#18415#0" expanded="true" />
+            <element signature="e#18429#18433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/API/String/StringDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="271" column="34" lean-forward="true" selection-start-line="271" selection-start-column="34" selection-end-line="271" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="109" column="36" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/API/String/StringDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="979" column="41" lean-forward="true" selection-start-line="979" selection-start-column="41" selection-end-line="979" selection-end-column="41" />
+          <folding>
+            <element signature="e#23072#23073#0" expanded="true" />
+            <element signature="e#23112#23113#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,7 @@
 package com.riden.tomtest;
 
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+import javax.servlet.*;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import java.io.IOException;
 
