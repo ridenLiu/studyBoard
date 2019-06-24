@@ -1,6 +1,7 @@
 package API.String;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 public class StringDemo01 {
 

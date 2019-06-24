@@ -1,7 +1,7 @@
 package API.String;
 
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 import java.nio.charset.Charset;
 
