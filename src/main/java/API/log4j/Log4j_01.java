@@ -1,8 +1,6 @@
 package API.log4j;
 
 
-import exercise.date_0507.Login_01;
-import org.apache.log4j.Logger;
 
 import java.io.File;
 

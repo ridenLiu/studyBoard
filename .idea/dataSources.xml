@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="zongdiao" uuid="3dd27a4a-64e5-4712-a9a4-6420c53605b4">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@//11.53.59.38:1521/orcl</jdbc-url>
+      <driver-properties>
+        <property name="v$session.program" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
