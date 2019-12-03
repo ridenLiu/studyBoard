@@ -1,6 +1,6 @@
 package basic;
 
-public class ExtendsDemo {
+public class Demo_extends {
     public static void main(String[] args) {
         Object str = 1;
         boolean b = str instanceof Integer;

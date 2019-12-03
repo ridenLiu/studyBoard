@@ -1,4 +1,4 @@
-package basic.Encapsulation;
+package basic;
 
 /**
  *
@@ -31,6 +31,6 @@ package basic.Encapsulation;
  *      java.awt: 构建与平台无关的GUI程序
  */
 
-public class Note1 {
+public class Demo_encapsulation {
 
 }
