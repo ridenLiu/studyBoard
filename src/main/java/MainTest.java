@@ -1,7 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainTest {
     public static void main(String[] args) {
-        short a = 1;
-        int b = 1;
-        System.out.println(a == b);
+        List list = new ArrayList<>();
+        int nums = 0;
+        try {
+            while (true) {
+                Object obj = new Object();
+                list.add(obj);
+                nums++;
+            }
+        } catch (Throwable t) {
+            t.printStackTrace();
+        }finally {
+            System.out.println("times: "+nums);
+        }
+
     }
 }
