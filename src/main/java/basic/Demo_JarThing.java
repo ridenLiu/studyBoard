@@ -11,7 +11,7 @@ public class Demo_JarThing {
      * 一:
      * javac -d targetPath javaFilePath 编译文件
      * java packageName.ClassName
-     *
+     * <p>
      * 二:
      * jar命令
      * 1. 创建jar文件
@@ -21,9 +21,15 @@ public class Demo_JarThing {
      * 3. 不使用清单文件: jar cvfM test.jar test
      * 4. 自定义清单文件: jar cvfm test.jar textFilePath test
      * 自定义的请单位文件要以一个空行结尾
-     *三:
+     * 三:
      * 创建可执行的jar包
-     *
-     *
+     * jar cvfe targetJarPath package.Class sourceFilePath
      */
+
+    public static void main(String[] t) {
+        System.out.println("length: " + t.length);
+        for (int i = 0; i < t.length; i++) {
+            System.out.println(t[i]);
+        }
+    }
 }
