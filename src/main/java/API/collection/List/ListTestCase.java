@@ -1,4 +1,4 @@
-package API.List;
+package API.collection.List;
 
 public class ListTestCase {
 

@@ -1,4 +1,4 @@
-package API.String;
+package API.string;
 
 
 import org.junit.Test;

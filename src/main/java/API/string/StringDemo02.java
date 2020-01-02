@@ -1,9 +1,7 @@
-package API.String;
+package API.string;
 
 
 import org.junit.Test;
-
-import java.nio.charset.Charset;
 
 public class StringDemo02 {
 
