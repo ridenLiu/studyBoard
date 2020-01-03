@@ -1,21 +1,13 @@
+import oracle.sql.TIMESTAMP;
+
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainTest {
-    public static void main(String[] args) {
-        List list = new ArrayList<>();
-        int nums = 0;
-        try {
-            while (true) {
-                Object obj = new Object();
-                list.add(obj);
-                nums++;
-            }
-        } catch (Throwable t) {
-            t.printStackTrace();
-        }finally {
-            System.out.println("times: "+nums);
-        }
-
+    public static void main(String[] args) throws SQLException {
+        TIMESTAMP timestamp = new TIMESTAMP();
+        Object obj = (Object)timestamp;
+        System.out.println(obj.toString());
     }
 }

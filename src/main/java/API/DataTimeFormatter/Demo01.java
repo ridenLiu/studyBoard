@@ -21,7 +21,7 @@ public class Demo01 {
                 DateTimeFormatter.ofLocalizedDateTime(FormatStyle.FULL, FormatStyle.MEDIUM),
 //                DateTimeFormatter.ofLocalizedDateTime(FormatStyle.LONG),
                 // 根据模式字符串来船舰DataTimeFormatter格式器
-                DateTimeFormatter.ofPattern("Gyyyy-MMM-dd HH:mm:ss"),
+                DateTimeFormatter.ofPattern("yyyy-MMM-dd HH:mm:ss"),
         };
         LocalDateTime date = LocalDateTime.now();
         // 使用不同格式对localDateTime进行格式化

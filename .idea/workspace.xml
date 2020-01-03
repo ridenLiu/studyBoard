@@ -6,23 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="更新 2019_12_19 14:42">
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/DataTimeFormatter/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/I18N_L10N/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/collection/CollectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/collection/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/object/Object_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/objects/Objects_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/random/Random_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/regex/Regex_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/time/Time_1.java" afterDir="false" />
+    <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="更新 2020_01_02">
+      <change afterPath="$PROJECT_DIR$/local_lib/ojdbc8-12.2.0.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/jdbc/CustomizedSqlExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/jdbc/TestDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/Demo01/HelloVuejs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/js/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/List/ListTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/collection/List/ListTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/List/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/collection/List/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/List/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/collection/List/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/String/StringDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/string/StringDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/String/StringDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/string/StringDemo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/runtime/Runtime_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/runtime/Runtime_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/API/DataTimeFormatter/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/DataTimeFormatter/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -105,7 +98,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561428629787" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/study_note" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/vue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -114,17 +107,18 @@
     <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet\image" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\datedemos" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\draggable_demo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue" />
+      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard" />
       <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\study_note" />
       <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet" />
       <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\java\thread" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\WEB-INF\lib" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyUIs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\js" />
+      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet\image" />
+      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\datedemos" />
+      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\draggable_demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -139,58 +133,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapTest.java8ForMap">
+  <component name="RunManager" selected="Application.TestDemo2">
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <module name="studyBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="API.jdbc.TestDemo2" />
+      <module name="studyBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTest.ArrayDequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo01.formatterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studyBoard" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.collection.*" />
+          <option name="PATTERN" value="API.DataTimeFormatter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="API.collection" />
-      <option name="MAIN_CLASS_NAME" value="API.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="ArrayDequeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionTest.LinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studyBoard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API.collection" />
-      <option name="MAIN_CLASS_NAME" value="API.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="LinkedListTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionTest.QueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studyBoard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API.collection" />
-      <option name="MAIN_CLASS_NAME" value="API.collection.CollectionTest" />
-      <option name="METHOD_NAME" value="QueueTest" />
+      <option name="PACKAGE_NAME" value="API.DataTimeFormatter" />
+      <option name="MAIN_CLASS_NAME" value="API.DataTimeFormatter.Demo01" />
+      <option name="METHOD_NAME" value="formatterTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -323,20 +305,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.tom 9.0.16" />
-      <item itemvalue="JUnit.CollectionTest.QueueTest" />
-      <item itemvalue="JUnit.CollectionTest.ArrayDequeTest" />
-      <item itemvalue="JUnit.CollectionTest.LinkedListTest" />
       <item itemvalue="JUnit.MapTest.MapTest1" />
       <item itemvalue="JUnit.MapTest.java8ForMap" />
+      <item itemvalue="Tomcat Server.tom 9.0.16" />
+      <item itemvalue="Application.TestDemo2" />
+      <item itemvalue="JUnit.Demo01.formatterTest" />
+      <item itemvalue="Application.MainTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemo2" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="JUnit.Demo01.formatterTest" />
         <item itemvalue="JUnit.MapTest.java8ForMap" />
         <item itemvalue="JUnit.MapTest.MapTest1" />
-        <item itemvalue="JUnit.CollectionTest.LinkedListTest" />
-        <item itemvalue="JUnit.CollectionTest.ArrayDequeTest" />
-        <item itemvalue="JUnit.CollectionTest.QueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +443,8 @@
       <workItem from="1577666300187" duration="4859000" />
       <workItem from="1577695837129" duration="1376000" />
       <workItem from="1577758573071" duration="4009000" />
-      <workItem from="1577925494130" duration="10946000" />
+      <workItem from="1577925494130" duration="11728000" />
+      <workItem from="1578014401082" duration="13575000" />
     </task>
     <task id="LOCAL-00001" summary="idea 测试代码提交">
       <created>1559035858495</created>
@@ -512,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576737789902</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新 2020_01_02">
+      <created>1577956052684</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577956052684</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +528,8 @@
     <MESSAGE value="更新 2019_12_06_内部类" />
     <MESSAGE value="更新 2019_12_18" />
     <MESSAGE value="更新 2019_12_19 14:42" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 2019_12_19 14:42" />
+    <MESSAGE value="更新 2020_01_02" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 2020_01_02" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -562,6 +553,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/API/collection/CollectionTest.java</url>
           <line>27</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/API/jdbc/TestDemo2.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
