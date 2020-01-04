@@ -7,7 +7,10 @@
 <body>
 
 
-<div id="div1">{{message}}</div>
+<div id="div1">
+    <h1>{{message1}}</h1>
+    <h2>{{message2}}</h2>
+</div>
 
 
 <script src="../js/vue.js"></script>
@@ -16,7 +19,9 @@
     const app = new Vue({
         el: '#div1',// 用于挂载要管理的元素
         data:{// 定义数据
-            message: 'hello,vue'
+            message1: 'hello,vue',
+            message2: 'this is vue'
+
         }
     })
 
