@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let gamesData = [
+        {
+            id: 1,
+            name: '荒野大嫖客:救赎2',
+            date: '2019-12-06',
+            price: 200,
+            count: 1
+        }, {
+            id: 2,
+            name: 'GTA5',
+            date: '2014-09-11',
+            price: 125,
+            count: 1
+        }, {
+            id: 3,
+            name: '巫师3',
+            date: '2015-11-16',
+            price: 40,
+            count: 1
+        }, {
+            id: 4,
+            name: '实况足球2018',
+            date: '2017-9-10',
+            price: 100,
+            count: 1
+        }
+    ];
+    const nums = [10, 30, 90, 111, 31, 130, 145, 90];
+    // of遍历方式
+    for (let item of gamesData) {
+        //console.log("name: ",item.name);
+    }
+
+
+    /**
+     * 1. 需求 求出数组中小于100的所有数
+     * 使用filter配合命令模式,过滤数据
+     * @type {number[]}
+     */
+    let res1 = nums.filter(function (n) {// 该接口返回的是boolean值
+        return n < 100;
+    });
+    console.log('res1: ', res1);
+    /**
+     * 需求 让数组中的所有值都乘二
+     * 使用map对数组中的值进行操作
+     */
+    let res2 = res1.map(function (n) {
+        return n * 2;
+    });
+    console.log('res2: ', res2);
+    /**
+     * 需求对数字数组进行求和
+     * 使用reduce
+     */
+    let sum = res2.reduce(function (preValue,n) {
+        return preValue+n;
+    },0);
+    console.log('sum: ',sum);
+</script>
+</body>
+</html>

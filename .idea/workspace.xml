@@ -6,16 +6,78 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="更新 2020_01_02">
-      <change afterPath="$PROJECT_DIR$/local_lib/ojdbc8-12.2.0.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/jdbc/CustomizedSqlExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/API/jdbc/TestDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/Demo01/HelloVuejs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/js/vue.js" afterDir="false" />
+    <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="更新 2020_01_03 开始了vue的学习">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/22819.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_ad1/01-webpack的使用/01-webpack起步/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_ad1/01-webpack的使用/01-webpack起步/source/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_ad1/01-webpack的使用/01-webpack起步/source/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_ad1/01-webpack的使用/01-webpack起步/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/01-es6新语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/02-const.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/03-对象字面量的增强写法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/js高阶函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part01/01-HelloVuejs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part01/02-Vue列表显示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part01/03-vue计数器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/01-mustache.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/02-v-once指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/03-v-html指令.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/04-v-text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/05-v-pre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/06-v-cloak.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/01-v-bind的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/02-v-bind动态绑定class(对象语法).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/03-v-bind定态绑定class(数组语法).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/04-练习v-for和v-bind结合.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/05-v-bind动态绑定style(对象语法).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/06-v-bind动态绑定style(数组语法).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/01-计算属性的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/02-计算属性的复杂操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/03-计算属性的setter和getter方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/04-计算属性和methods的对比.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/01-v-on的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/02-v-on的参数问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/03-v-on修饰符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/01-v-if的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/02-v-if和v-else的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/03-v-else-if使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/04-用户登录切换案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/06-v-show使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/01-遍历数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/04-那些数组的方法是响应式的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part08-图书购物车/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/01-v-model的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/02-v-model的实现原理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/03-v-model结合radio类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/04-v-model和checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/05-v-model-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/06-v-model的修饰符的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/01-组件化的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/02-全局组件和局部主键.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/03-父组件和子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/04-组件的语法糖注册方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/05-组件模板的分离写法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/06-组件中的data属性是函数的原因.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/07-组件通信-父组件向子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/08-组件通信-父传子(props中的驼峰标识).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/09-组件通信-子传父.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/10-组件通讯-父子组件通信案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/11-组件访问-父访问子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/12-组件访问-子访问父.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/01-slot-插槽的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/02-slot-具名插槽的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/03-slot-编译作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/04-作用域插槽的案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part12-前端模块化/aaa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part12-前端模块化/bbb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part12-前端模块化/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part12-前端模块化/mmm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/DataTimeFormatter/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/DataTimeFormatter/Demo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/Demo01/HelloVuejs.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +110,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
         <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/03-v-for使用过程添加key.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -101,24 +167,26 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/vue" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\vue_base" />
+      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\part11-组件高级" />
+      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\part1-vue中的插值操作" />
+      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\js" />
+      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet\image" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue" />
       <recent name="C:\Users\22819\ideaWorkSpace\studyBoard" />
       <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\study_note" />
       <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet" />
       <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\java\thread" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\js" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet\image" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\datedemos" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\easyHtml\draggable_demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +201,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDemo2">
+  <component name="RunManager" selected="Application.MainTest">
     <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainTest" />
       <module name="studyBoard" />
@@ -305,17 +373,17 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TestDemo2" />
+      <item itemvalue="Application.MainTest" />
       <item itemvalue="JUnit.MapTest.MapTest1" />
       <item itemvalue="JUnit.MapTest.java8ForMap" />
-      <item itemvalue="Tomcat Server.tom 9.0.16" />
-      <item itemvalue="Application.TestDemo2" />
       <item itemvalue="JUnit.Demo01.formatterTest" />
-      <item itemvalue="Application.MainTest" />
+      <item itemvalue="Tomcat Server.tom 9.0.16" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestDemo2" />
         <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.TestDemo2" />
         <item itemvalue="JUnit.Demo01.formatterTest" />
         <item itemvalue="JUnit.MapTest.java8ForMap" />
         <item itemvalue="JUnit.MapTest.MapTest1" />
@@ -444,7 +512,21 @@
       <workItem from="1577695837129" duration="1376000" />
       <workItem from="1577758573071" duration="4009000" />
       <workItem from="1577925494130" duration="11728000" />
-      <workItem from="1578014401082" duration="13575000" />
+      <workItem from="1578014401082" duration="15186000" />
+      <workItem from="1578271862882" duration="10481000" />
+      <workItem from="1578357370250" duration="19781000" />
+      <workItem from="1578443761547" duration="12349000" />
+      <workItem from="1578531166373" duration="6615000" />
+      <workItem from="1578879103279" duration="7745000" />
+      <workItem from="1578966994036" duration="12936000" />
+      <workItem from="1579049022253" duration="18186000" />
+      <workItem from="1579135561853" duration="603000" />
+      <workItem from="1579138596742" duration="5746000" />
+      <workItem from="1579221781922" duration="1199000" />
+      <workItem from="1579225122866" duration="870000" />
+      <workItem from="1579226437564" duration="5511000" />
+      <workItem from="1579394167705" duration="13016000" />
+      <workItem from="1579479937237" duration="4474000" />
     </task>
     <task id="LOCAL-00001" summary="idea 测试代码提交">
       <created>1559035858495</created>
@@ -502,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577956052684</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="更新 2020_01_03 开始了vue的学习">
+      <created>1578043894859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578043894859</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +618,8 @@
     <MESSAGE value="更新 2019_12_18" />
     <MESSAGE value="更新 2019_12_19 14:42" />
     <MESSAGE value="更新 2020_01_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 2020_01_02" />
+    <MESSAGE value="更新 2020_01_03 开始了vue的学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 2020_01_03 开始了vue的学习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <span>{{message1}}</span>
+    <span><input type="text" :placeholder= "message2"> </span>
+    <button @click="changeLoginType">切换类型</button>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            message1: '账号登录',
+            message2: '输入账号'
+        },
+        computed: {},
+        methods: {
+            changeLoginType() {
+                if (this.message1 === '账号登录') {
+                    this.message1 = '邮箱登录';
+                    this.message2 = '输入邮箱'
+                } else {
+                    this.message1 = '账号登录';
+                    this.message2 = '输入账号'
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

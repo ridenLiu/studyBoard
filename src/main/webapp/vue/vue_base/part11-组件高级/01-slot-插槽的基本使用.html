@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app" ref="super_id">
+    <cpn><button>按钮</button></cpn>
+    <cpn><span>hhhh</span></cpn>
+    <cpn></cpn>
+</div>
+<!--
+1. 插槽的基本使用<slot></slot>
+2. 插槽的默认值,再slot中添加标签<slot><h2>默认标签</h2></slot>
+3. 如果有多个值,同时放入到组件进行替换,一起作为替换元素
+-->
+<template id="cpn_id">
+    <div>
+        <h2>子组件</h2>
+        <slot><button>默认标签</button></slot>
+    </div>
+</template>
+<script src="../../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        methods: {},
+        components: {
+            cpn: {
+                template: '#cpn_id',
+            }
+        }
+    })
+</script>
+</body>
+</html>

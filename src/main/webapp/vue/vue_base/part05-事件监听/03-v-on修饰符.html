@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <div @click="divClick">
+        this is a long string
+        <!--    1: .stop修饰符的使用-->
+        <button @click.stop="btnClick">按钮1</button>
+    </div>
+    <br/>
+    <!--    2: .prevent,阻止默认行为，并调用指定的方法-->
+    <form action="baidu">
+        <input @click.prevent="submit_" type="submit" value="提交">
+    </form>
+    <!--    监听键盘的点击-->
+    <input type="text" @keyup="keyUp"/>
+
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            counter: 0,
+        },
+        methods: {
+            btnClick() {
+                alert("btnClick is running");
+            },
+            divClick() {
+                alert("divClick is running");
+            },
+            submit_() {
+                alert("let's submit");
+            },
+            keyUp(obj) {
+                console.log("running key up");
+                console.log(obj);
+            }
+        }
+    })
+</script>
+</body>
+</html>

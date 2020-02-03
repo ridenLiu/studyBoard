@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app" v-cloak>
+
+    <!--1. 直接拼接: 语法过于繁琐-->
+    <h2>{{firstName}} {{lastName}}</h2>
+    <!--2. 使用方法: 写几次,系统就调用几次-->
+    <h2>{{getFullName()}}</h2>
+    <h2>{{getFullName()}}</h2>
+    <h2>{{getFullName()}}</h2>
+    <h2>{{getFullName()}}</h2>
+    <!--3. 使用计算属性: 计算属性有缓存,会将第一次得出的属性值缓存起来-->
+    <h2>{{fullName}}</h2>
+    <h2>{{fullName}}</h2>
+    <h2>{{fullName}}</h2>
+    <h2>{{fullName}}</h2>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            firstName: 'riden',
+            lastName: 'james'
+        },
+        computed: {
+            // 计算属性一般是没有set方法(属性只读),因此常用简写形式,即直接使用function
+            fullName: {
+                get: function () {
+                    console.log("计算属性运行一次!");
+                    return this.firstName + ' ' + this.lastName
+                }
+            }
+        },
+        methods: {
+            getFullName: function () {
+                console.log("方法getFullName运行一次!");
+                return this.firstName + ' ' + this.lastName;
+                ;
+            }
+        }
+    });
+
+</script>
+</body>
+</html>

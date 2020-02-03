@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app" v-cloak>
+    <h2>{{fullName}}</h2>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            firstName: 'riden',
+            lastName: 'james'
+        },
+        computed: {
+            // 计算属性一般是没有set方法(属性只读),因此常用简写形式,即直接使用function
+            fullName: {
+                set: function (newValue) {
+                    let arr = newValue.split(' ');
+                    this.firstName = arr[0];
+                    this.lastName = arr[1];
+                },
+                get: function () {
+                    return this.firstName + ' ' + this.lastName
+                }
+            }
+        }
+    });
+
+</script>
+</body>
+</html>

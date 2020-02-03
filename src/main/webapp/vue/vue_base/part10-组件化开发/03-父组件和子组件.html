@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <cpnc11>
+
+    </cpnc11>
+</div>
+
+
+<script>
+
+    //1. 创建组件
+    const cpnC = Vue.extend({
+        template: `<div><h2>this is cpnC</h2></div>`
+    });
+    const cpnC2 = Vue.extend({
+        template: `<div><h2>this is cpnC2</h2><cpn1></cpn1></div>`,
+        components: {
+            'cpn1': cpnC
+        }
+    });
+
+
+    const app = new Vue({
+        el: '#app',
+        components: {
+            "cpnc11": cpnC2
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

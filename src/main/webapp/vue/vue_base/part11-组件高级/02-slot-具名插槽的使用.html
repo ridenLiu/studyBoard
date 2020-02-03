@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app" ref="super_id">
+    <cpn>
+        <button slot="left">按钮</button>
+        <span slot="center">
+            狄安娜
+        </span>
+    </cpn>
+</div>
+<template id="cpn_id">
+    <div>
+        <h2>子组件</h2>
+        <slot name="left"><span>左边</span></slot>
+        <slot name="center"><span>中间</span></slot>
+        <slot name="right"><span>右边</span></slot>
+    </div>
+</template>
+<script src="../../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        methods: {},
+        components: {
+            cpn: {
+                template: '#cpn_id',
+            }
+        }
+    })
+</script>
+</body>
+</html>

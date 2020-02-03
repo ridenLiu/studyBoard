@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <cpn_1></cpn_1>
+    <cpn_2></cpn_2>
+</div>
+<!--使用x-template-->
+<script type="text/x-template" id="cpn1_id">
+    <div>
+        <h2>this is x-template</h2>
+        <h2>str:{{str}}</h2>
+    </div>
+</script>
+<!--使用template标签-->
+<template id="cpn2_id">
+    <div>
+        <h2>this is template tag</h2>
+    </div>
+</template>
+
+<script>
+    // 注册全局主键
+    Vue.component('cpn_1', {
+        template: '#cpn1_id',
+        data() {// 使用组件的data属性保存数据，但该属性对应的是方法
+            return {
+                str: "this is cpn's data"
+            }
+        }
+    });
+
+    Vue.component('cpn_2', {
+        template: '#cpn2_id '
+    });
+
+    const app = new Vue({
+        el: '#app',
+        components: {}
+    });
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue template</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<!--双大括号语法mustache-->
+<div id="app">
+    <h1>{{message}}</h1>
+    <h1>{{message}},I'am riden</h1>
+    <h1>{{firstName+ ' '+lastName}}</h1>
+    <h1>{{firstName}} {{lastName}}</h1>
+    <h1>{{counter*2}}</h1>
+</div>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data:{
+            message: 'hello vue',
+            firstName: 'riden',
+            lastName: 'Lin',
+            counter: 100
+        }
+    });
+</script>
+
+
+</body>
+</html>

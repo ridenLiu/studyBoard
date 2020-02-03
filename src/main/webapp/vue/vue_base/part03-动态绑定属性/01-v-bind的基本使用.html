@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+<!--    使用v-bind-->
+    <a v-bind:href="aTagUrl">百度</a>
+    <a :href="aTagUrl2">京东</a><!--v-bind的简写形式-->
+</div>
+<script>
+    let app = new Vue({
+        el:'#app',
+        data:{
+            message:'hello',
+            aTagUrl:'http://www.baidu.com',
+            aTagUrl2:'http://www.jd.com',
+        },
+        methods:{
+
+        }
+    })
+</script>
+</body>
+</html>

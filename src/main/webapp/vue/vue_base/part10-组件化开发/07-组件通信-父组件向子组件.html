@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <cpn1 v-bind:cmovies="movies" :cmessage="message"></cpn1>
+</div>
+
+
+<!--父类模板-->
+<template id="cpn1_id">
+    <div>
+        <h2>{{cmovies}}</h2>
+        <h2>{{cmessage}}</h2>
+    </div>
+</template>
+
+
+<script>
+
+    // 父传子:props
+    const cpn1 = {
+        template: '#cpn1_id',
+        // 1. 使用数组
+        props: ['cmovies', 'cmessage'],
+        // props:{
+        //2. 类型限制
+        // cmovies: Array,
+        //3. 提供默认值，并指定类型
+        // cmessage:{
+        //     type: String,
+        //     default: 'hello',
+        //      required: true // 是否必要
+        // }
+        // }
+    };
+
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello',
+            movies: ['test1', 'riden', 'read dead']
+        },
+        components: {
+            cpn1
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

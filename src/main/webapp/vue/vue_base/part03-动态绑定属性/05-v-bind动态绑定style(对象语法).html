@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <!--    json格式: {属性名:属性值}-->
+    <!--    属性值默认是变量,如果是值,则需要添加单引号-->
+    <h2 v-bind:style="{fontSize: '50px'}">{{message}}</h2>
+    <h2 v-bind:style="{fontSize: finalSize}">{{message}}</h2>
+    <!--    可以进行字符串拼接-->
+    <h2 v-bind:style="{fontSize: finalNum+'px'}">{{message}}</h2>
+
+    <h2 v-bind:style="{color: finalColor}">{{message}}</h2>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            message: 'hello',
+            finalSize: '20px',
+            finalNum: 100,
+            finalColor:'pink'
+        },
+        methods: {}
+    })
+</script>
+</body>
+</html>

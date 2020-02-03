@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏购物车</title>
+</head>
+<style>
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    td, th {
+        padding: 8px 16px;
+        border: 1px solid black;
+        text-align: left;
+    }
+
+    th {
+        background-color: black;
+        font-weight: 600;
+    }
+</style>
+
+<body>
+
+<div id="app">
+    <table>
+        <thead>
+        <tr>
+            <td></td>
+            <td>游戏名称</td>
+            <td>发售日期</td>
+            <td>价格</td>
+            <td>数量</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+        <tbody v-if="isShow">
+        <tr v-for="(item,index) in games">
+            <td>{{index+1}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.date}}</td>
+            <!--使用过滤器-->
+            <td>{{item.price | showPrice}}</td>
+            <td>
+                <button v-on:click="changeCount(false,index)" v-bind:disabled="item.count <=1 ">-</button>
+                {{item.count}}
+                <button v-on:click="changeCount(true,index)">+</button>
+            </td>
+            <td>
+                <button v-on:click="removeTarget(index)">移除</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="6">总价:{{totalPrice}}</td>
+        </tr>
+        </tbody>
+        <tbody v-else>
+        <tr>
+            <td colspan="6">购物车为空</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+
+<script src="../../js/vue.js"></script>
+<script>
+    let gamesData = [
+        {
+            id: 1,
+            name: '荒野大嫖客:救赎2',
+            date: '2019-12-06',
+            price: 200,
+            count: 1
+        }, {
+            id: 2,
+            name: 'GTA5',
+            date: '2014-09-11',
+            price: 125,
+            count: 1
+        }, {
+            id: 3,
+            name: '巫师3',
+            date: '2015-11-16',
+            price: 40,
+            count: 1
+        }, {
+            id: 4,
+            name: '实况足球2018',
+            date: '2017-9-10',
+            price: 100,
+            count: 1
+        }
+    ];
+    const app = new Vue({
+        el: '#app',
+        data: {
+            games: gamesData,
+        },
+        computed: {
+            isShow: function () {
+                return this.games.length !== 0;
+            },
+            totalPrice: function () {
+                let priceNum = 0;
+                const games = this.games;
+                for (let i = 0; i < games.length; i++) {
+                    priceNum += (games[i].price * games[i].count);
+                }
+                return priceNum;
+            }
+        },
+        methods: {
+            removeTarget(id) {
+                this.games.splice(id, 1);
+            },
+            changeCount(isAddOperation, index) {
+                const games = this.games;
+                if (isAddOperation) {
+                    games[index].count++;
+                } else {
+                    if (games[index].count > 0) {
+                        games[index].count--;
+                    }
+                }
+            }
+        },
+        filters: {
+            showPrice(price) {
+                return '￥' + price.toFixed(2);
+            }
+        }
+
+    })
+</script>
+</body>
+</html>

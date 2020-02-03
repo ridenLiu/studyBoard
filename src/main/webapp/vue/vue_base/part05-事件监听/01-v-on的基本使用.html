@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h2>{{counter}}</h2>
+    <button v-on:click="increment()">+</button>
+    <!--    简化形式: 使用@替代v-on-->
+    <button @click="minus()">-</button>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            counter: 0,
+        },
+        methods: {
+            increment() {
+                this.counter++;
+            },
+            minus() {
+                this.counter--;
+            }
+        }
+    })
+</script>
+</body>
+</html>

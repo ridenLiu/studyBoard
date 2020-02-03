@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h2>{{message}}</h2>
+    <h2 v-once>{{message}}</h2><!--使用v-once固定message的初始值(取消其响应式的属性)-->
+</div>
+
+<script>
+    var app = new Vue({
+        el: '#app',
+        data:{
+            message: 'riden Liu'
+        }
+    })
+</script>
+</body>
+</html>

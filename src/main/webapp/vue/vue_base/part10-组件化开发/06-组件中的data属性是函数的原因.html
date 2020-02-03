@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <cpn_1></cpn_1>
+    <cpn_1></cpn_1>
+    <cpn_1></cpn_1>
+</div>
+<script type="text/x-template" id="cpn1_id">
+    <div>
+        <h2>count: {{count}}</h2>
+        <button v-on:click="changeCount(false)">-</button>
+        <button v-on:click="changeCount(true)">+</button>
+    </div>
+</script>
+
+<script>
+    /**
+     * 组件的data属性是函数，着主要是考虑到组件的复用。
+     * 每个组件都因该使用单独的一份数据。使用函数能很好的实现这点。
+     */
+    Vue.component('cpn_1', {
+        template: '#cpn1_id',
+        data() {
+            return {
+                str: "this is cpn's data",
+                count: 0
+            }
+        },
+        methods: {
+            changeCount(isAdd) {
+                if (isAdd) {
+                    this.count++;
+                } else {
+                    this.count--;
+                }
+            }
+        }
+    });
+
+
+    const app = new Vue({
+        el: '#app',
+        components: {}
+    });
+
+</script>
+
+
+</body>
+</html>

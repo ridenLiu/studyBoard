@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<!--父组件模板-->
+<div id="app">
+    <cpn1 v-on:item-click="cpnClick"></cpn1>
+</div>
+
+
+<!--子组件-->
+<template id="cpn1_id">
+    <div>
+        <button v-for="item in categories" v-on:click="btnClick(item)">{{item.name}}</button>
+    </div>
+</template>
+
+
+<script>
+
+    // 子传子:props
+    const cpn1 = {
+        template: '#cpn1_id',
+        data() {
+            return {
+                categories: [
+                    {id: 'aaa', name: '热门推荐'},
+                    {id: 'bbb', name: '电脑办公'},
+                    {id: 'ccc', name: '家用电器'},
+                    {id: 'ddd', name: '手机数码'},
+                ]
+            }
+        },
+        methods: {
+            btnClick(item) {
+                // alert("get item: " + item.id);
+                // 发射自定义时间,再再父组件上监听(v-on)该事件
+                this.$emit('item-click', item);
+            }
+        }
+
+    };
+
+    const app = new Vue({
+        el: '#app',
+        data: {},
+        methods: {
+            cpnClick(item) {
+                alert("running: " + item.id);
+            }
+        },
+        components: {
+            cpn1
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+    <style>
+        .active{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <h2 class="title" :class="[hTagClass,'line']">{{message}}</h2>
+</div>
+<script>
+    let app = new Vue({
+        el:'#app',
+        data:{
+            message:'hello',
+            hTagClass:'h_id',
+            isActive:true,
+            isLine:false
+        },
+        methods:{
+        }
+    })
+</script>
+</body>
+</html>

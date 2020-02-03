@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="item in season" :key="item">{{item}}</li>
+    </ul>
+    <button @click="btnClick">按钮</button>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            season: ['spring', 'summer', 'autumn', 'winter']
+        },
+        computed: {},
+        methods: {
+            btnClick() {
+                // 响应式方法的判断
+                //一. push方法(T)
+                // this.season.push('aaa','bb');
+                //二. 通过索引值修改数组中的元素 (T)
+                //this.season[2] = 'fall';
+
+
+                /**
+                 *  三. pop(),删除数组中的最后一个元素 (F)
+                 *  可以使用vue方法修改指定数组下标的值
+                */
+                Vue.set(this.season,2,'fall');
+                // this.season.pop();
+                // shift(),删除数组中的第一个元素 (T)
+                // this.season.shift();
+                // unshift(),在数组最前面添加元素 (T)
+                // this.season.unshift('fall')
+                /**
+                 * 四. splice操作: 删除/插入/替换 (T)
+                 * 1. 删除元素: splice(start: number, deleteCount?: number): T[];第二个参数表示要删除元素数量
+                 * splice(startIndex); //删除index后的所有元素
+                 * splice(startIndex,2); //删除index后的2个元素
+                 * 2. 替换/插入 元素
+                 * splice(start: number, deleteCount: number, ...items: T[]): T[];
+                 * 前两个参数删除元素方法一致,后面的可变参数为需要添加的参数
+                 *
+                 * splice(4,0,'test1','test2'); 从数组下标为4的位置开始,删除0个元素,添加元素'test1','test2'.
+                 * splice(2,1,'fall'); 从数组下标为2的元素开始,删除一个元素,并在当前位置插入元素 'fall'.
+                 */
+                // this.season.splice(2, 1, 'fall');
+                /**
+                 * 五. sort() (T)
+                 */
+                // this.season.sort(function (a, b) {
+                //     alert("i'm running!");
+                //     return a.length - b.length;
+                // });
+                /**
+                 * 六.reverse(),反转 (T)
+                 */
+            }
+        }
+    });
+
+    function sum(...num) {
+        let sumValue = 0;
+        for (let i = 0; i < num.length; i++) {
+            sumValue += num[i];
+        }
+        return sumValue;
+    }
+</script>
+</body>
+</html>

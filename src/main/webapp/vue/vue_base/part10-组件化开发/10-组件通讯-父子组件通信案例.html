@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div id="app">
+<cpn v-bind:number1="num1" :number2="num2"></cpn>
+</div>
+
+<template id="cpn_id">
+    <div>
+        <h2>{{number1}}</h2>
+        <h2>{{number2}}</h2>
+    </div>
+</template>
+<script src="../../js/vue.js"></script>
+<script>
+
+    const app = new Vue({
+        el: '#app',
+        data: {
+            num1: 1,
+            num2: 0
+        },
+        components: {
+            cpn: {
+                template: '#cpn_id',
+                props: {
+                    number1: Number,
+                    number2: Number,
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

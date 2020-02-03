@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <cpn1></cpn1>
+    <cpn2></cpn2>
+</div>
+
+
+<script>
+    /**
+     * 1. 创建全局组件的语法糖
+     */
+    let templateObj = {template: '<div><h2>this simple</h2></div>'};
+    let templateObj2 = {template: '<div><h2>this simple2</h2></div>'};
+    let cpn1 = Vue.component(
+        'cpn1', templateObj
+    );
+
+    /**
+     * 2. 创建 局部组件
+     */
+
+    const app = new Vue({
+        el: '#app',
+        components: {
+            'cpn1': cpn1,
+            'cpn2': templateObj2
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

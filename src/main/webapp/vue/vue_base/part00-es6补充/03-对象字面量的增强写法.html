@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    const obj = {
+        name: 'riden',
+        age: '21',
+        sayHi: function () {
+            alert("hello i'am riden");
+        }
+    };
+    const name = 'riden';
+    const age = 21;
+    const height = 196;
+
+    // 1. 属性的增强写法
+    const obj2 = {
+        name,
+        age,
+        height,
+    };
+    console.log("obj2: ", obj2);
+    // 2. 函数的增强写法
+    const obj2 = {
+        sayHello() {
+            alert("hillo");
+        }
+    }
+
+</script>
+</body>
+</html>

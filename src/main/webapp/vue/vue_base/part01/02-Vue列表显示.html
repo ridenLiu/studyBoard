@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vue列表显示</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+<ul>
+    <li v-for="item in movies">{{item}}</li>
+</ul>
+</div>
+
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {// 响应式数据
+            movies: ['被解救的姜戈', '后天', '蓝色的茉莉']
+        }
+    })
+</script>
+</body>
+</html>

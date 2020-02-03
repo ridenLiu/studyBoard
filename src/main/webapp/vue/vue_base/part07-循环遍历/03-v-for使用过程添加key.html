@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <!--当使用v-for时如果要对元素进行修改,使用:key可以提高性能,但时:key对应的值要和显示的值有一一对应的关系-->
+        <li v-for="item in letters" :key="item">{{item}}</li>
+    </ul>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            letters: ['A', 'B', 'C', 'D', 'E']
+        },
+        computed: {},
+        methods: {}
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <first-cpn>
+
+    </first-cpn>
+</div>
+
+<div id="app2">
+</div>
+
+<script>
+    const cpnC = Vue.extend({
+        template: '<div><h2>这是组件中的内容</h2></div>'
+    });
+    /**
+     * 全局组件,意味着可以在多个Vue的实例下面使用
+     * 局部组件,在特定的Vue对象中创建的对象则为局部组件
+     */
+        //Vue.component('first-cpn', cpnC);
+
+    const app = new Vue({
+            el: '#app',
+            data: {
+                message: 'hello'
+            },
+            components: {
+                "first-cpn": cpnC
+            }
+        });
+
+    const app2 = new Vue({
+        el: '#app2'
+    })
+</script>
+
+
+</body>
+</html>

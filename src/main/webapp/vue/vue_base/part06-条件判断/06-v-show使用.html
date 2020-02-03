@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <!--    v-if如果条件为false时,对应的元素会被删除-->
+    <h2 v-if="isShow" id="if_id">{{message1}}</h2>
+    <!--    v-show条件为false时,对应的元素会添加属性display:none,适合切换频率高的场景 -->
+    <h2 v-show="isShow" id="show_id">{{message1}}</h2>
+</div>
+<script>
+    let app = new Vue({
+        el: '#app',
+        data: {
+            message1: '账号登录',
+            isShow: true
+        },
+        computed: {},
+        methods: {}
+    })
+</script>
+</body>
+</html>
