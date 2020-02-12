@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('可不可你,和你在一起');
+            reject('死了都要爱')
+        }, 1000)
+    }).then(data => {// 成功时调用的方法
+        console.log('success', data);
+    }, err => {// 失败是调用的方法
+        console.log('err', err);
+    })
+</script>
+
+</body>
+</html>

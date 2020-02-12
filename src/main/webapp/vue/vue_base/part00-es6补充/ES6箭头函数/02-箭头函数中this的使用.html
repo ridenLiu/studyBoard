@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 什么时候使用箭头函数
+    // setTimeout(function () {
+    //     console.log('normal', this);// windows
+    // }, 1000);
+    // setTimeout(() => {
+    //     console.log('es6', this);// windows
+    // }, 1000);
+    // 问题: 箭头函数中的this是如何查找出来的
+    // 答案: 向外层作用域中,一层层查找this,指导有this的定义
+    const obj = {
+        aaa() {
+            console.log("当前作用域中的this", this);
+            setTimeout(function () {
+                console.log('普通', this);// windows
+            }, 1000);
+            /**
+             * 箭头函数中的this引用的是最近作用域中的this
+             */
+            setTimeout(() => {
+                console.log('箭头函数', this); //aaa
+            }, 1000);
+        }
+    };
+    // obj.aaa();
+    const obj2 = {
+        bbb() {
+            setTimeout(function () {
+                setTimeout(function () {
+                    console.log('first', this); // window
+                });
+                setTimeout(() => {
+                    console.log('second', this); // window
+                })
+            });
+            setTimeout(() => {
+                setTimeout(function () {
+                    console.log('third', this); // window
+                });
+
+                setTimeout(() => {
+                    console.log('fifth', this); // object
+                })
+            })
+        }
+    };
+    obj2.bbb();
+
+</script>
+</body>
+</html>

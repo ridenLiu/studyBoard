@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            // resolve('潍坊的爱~~');
+            reject('error message');
+        }, 1000);
+    }).then((data1) => {
+        console.log('this the first time to resolve code');
+        console.log(data1);
+        // 使用简写形式,直接return结果
+        return '你好世界';
+    }).catch(()=>{
+        alert("万丈红尘有你作陪,即使心碎我也无所谓!");
+    }).then((res) => {
+        console.log("第二次处理的代码执行");
+        console.log('res', res);
+        // 使用简写形式VVV
+        return Promise.resolve();
+    }).then(() => {
+        console.log('最后一次处理网络请求代码');
+        throw 'error message';// 如果使用throw,则一定要有catch?
+    }).catch((str)=>{
+        alert("粉身碎骨我也无所谓!");
+        console.log('errormessage', str);
+    });
+
+</script>
+</body>
+</html>

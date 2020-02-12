@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 一般情况下是由异步情况下使用Promise请求封装
+    // 主要是分离网络请求代码,和数据处理代码
+    // Promise三种状态
+    // 1.pending等待状态
+    // 2.fulfill:满足状态,主动回调resolve()时,then()方法会被调用
+    // 3. reject: 拒绝状态,主动调用reject()时,cache()方法会被调用
+
+    // 参数 -> 函数(resolve,reject)
+    // setTimeout看作发送网络请求
+    new Promise((resolve, reject) => {
+        // 第一次网络请求
+        setTimeout(() => {
+            // 成功的时候调用resolve
+            resolve('潍坊的爱~~');
+            // 失败的时候调用reject
+            reject('error message');
+        }, 1000);
+    }).then((data1) => {
+        // 第一次处理代码
+        console.log('this the first time to resolve code');
+        console.log(data1);
+        // 创建一个新的Promise对象
+        return new Promise((resolve, reject) => {
+            // 第二次网络请求
+            setTimeout(() => {
+                resolve();
+            }, 1000);
+        })
+    }).catch(err => {
+        console.log('something wrong is happening');
+    }).then(() => {
+        //第二次处理的代码
+        console.log("第二次处理的代码执行");
+        return new Promise(((resolve, reject) => {
+            //第三次网络请求
+            setTimeout(() => {
+                resolve();
+            }, 1000);
+        }))
+    }).then(() => {
+        // 第三次处理的代码
+        console.log('最后一次处理网络请求代码');
+    });
+</script>
+</body>
+</html>

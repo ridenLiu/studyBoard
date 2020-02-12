@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function test1() {
+        Promise.all([
+            new Promise((resolve, reject) => {
+                $.ajax({
+                    url: 'url1',
+                    success: function (data) {
+                        resolve(data);
+                    }
+                })
+            }),
+            new Promise((resolve, reject) => {
+                $.ajax({
+                    url: 'url2',
+                    success: function (data) {
+                        resolve(data);
+                    }
+                })
+            })
+        ]).then(results => { // 只有当上面两个请求都成功时该方法才会运行
+            // results上面方法的结果集
+            console.log(results);
+        });
+    }
+
+    function test2() {
+        Promise.all([
+            Promise.all([
+                new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        resolve('func1 is finish')
+                    }, 1000);
+                }),
+                new Promise((resolve, reject) => {
+                    setTimeout(() => {
+                        resolve('出租车上的女孩,人美声甜,已痴汉似的看了很多次')
+                    }, 3000);
+                })
+            ]).then(results => { // 只有当上面两个请求都成功时该方法才会运行
+                // results上面方法的结果集
+                console.log(results);
+            })
+        ])
+    }
+    test2();
+</script>
+</body>
+</html>
