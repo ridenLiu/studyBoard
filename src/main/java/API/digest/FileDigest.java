@@ -8,7 +8,7 @@ import java.nio.file.Files;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class Demo01 {
+public class FileDigest {
 
     public static void main(String[] args) throws Exception {
         String rightRes = "14F0840DBABC554D43CF3021E04F7B11C7285BD85EE13DFB9D59C0A942BCD515";
@@ -52,7 +52,7 @@ public class Demo01 {
      *     * @return
      *     
      */
-    private static String byte2Hex(byte[] bytes) {
+    public static String byte2Hex(byte[] bytes) {
         StringBuffer stringBuffer = new StringBuffer();
         String temp = null;
         for (int i = 0; i < bytes.length; i++) {

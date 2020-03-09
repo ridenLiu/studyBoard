@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // 对象的解构&数组的解构
+    console.log('对象的结构');
+    const obj = {
+        name: 'riden',
+        age: '22',
+        height: '173'
+    }
+    const {name, height, age} = obj;
+    console.log('name', name);
+    console.log('height', height);
+    console.log('age', age);
+
+    console.log('数组的结构');
+    const arr = ['可不可以和你在一起', '生平第一次我放下矜持', '爱你变成伤害你'];
+    const [lyric1, lyric2, lyric3] = arr;
+    console.log('lyric1', lyric1);
+    console.log('lyric2', lyric2);
+    console.log('lyric3', lyric3);
+</script>
+</body>
+</html>

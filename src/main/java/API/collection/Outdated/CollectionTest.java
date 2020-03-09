@@ -1,11 +1,10 @@
-package API.collection;
+package API.collection.Outdated;
 
 import org.junit.Test;
 
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
-import java.util.function.UnaryOperator;
 import java.util.stream.IntStream;
 
 public class CollectionTest {

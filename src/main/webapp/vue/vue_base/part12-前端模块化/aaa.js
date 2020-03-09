@@ -27,5 +27,5 @@ export class Person {
 }
 
 // 4. export default 导出没有名字的事物,在一个模块中只能使用一个default
-const gName = 'read dead';
+const gName = '这是export default导出的结果';
 export default gName;
