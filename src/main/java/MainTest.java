@@ -2,6 +2,7 @@ import API.JWT.JwtUtil;
 import io.jsonwebtoken.Claims;
 
 import java.security.NoSuchAlgorithmException;
+import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.*;
 

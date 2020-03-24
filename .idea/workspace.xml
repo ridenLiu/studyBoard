@@ -7,77 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="更新 2020_01_03 开始了vue的学习">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/22819.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_ad1/01-webpack的使用/01-webpack起步/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_ad1/01-webpack的使用/01-webpack起步/source/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_ad1/01-webpack的使用/01-webpack起步/source/mathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_ad1/01-webpack的使用/01-webpack起步/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/01-es6新语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/02-const.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/03-对象字面量的增强写法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/js高阶函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part01/01-HelloVuejs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part01/02-Vue列表显示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part01/03-vue计数器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/01-mustache.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/02-v-once指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/03-v-html指令.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/04-v-text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/05-v-pre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/06-v-cloak.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/01-v-bind的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/02-v-bind动态绑定class(对象语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/03-v-bind定态绑定class(数组语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/04-练习v-for和v-bind结合.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/05-v-bind动态绑定style(对象语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/06-v-bind动态绑定style(数组语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/01-计算属性的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/02-计算属性的复杂操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/03-计算属性的setter和getter方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/04-计算属性和methods的对比.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/01-v-on的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/02-v-on的参数问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/03-v-on修饰符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/01-v-if的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/02-v-if和v-else的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/03-v-else-if使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/04-用户登录切换案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part06-条件判断/06-v-show使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/01-遍历数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/04-那些数组的方法是响应式的.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part08-图书购物车/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/01-v-model的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/02-v-model的实现原理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/03-v-model结合radio类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/04-v-model和checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/05-v-model-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/06-v-model的修饰符的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/01-组件化的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/02-全局组件和局部主键.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/03-父组件和子组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/04-组件的语法糖注册方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/05-组件模板的分离写法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/06-组件中的data属性是函数的原因.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/07-组件通信-父组件向子组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/08-组件通信-父传子(props中的驼峰标识).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/09-组件通信-子传父.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/10-组件通讯-父子组件通信案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/11-组件访问-父访问子.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/12-组件访问-子访问父.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/01-slot-插槽的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/02-slot-具名插槽的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/03-slot-编译作用域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/04-作用域插槽的案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part12-前端模块化/aaa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part12-前端模块化/bbb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part12-前端模块化/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part12-前端模块化/mmm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/riden.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/API/collection/p1set/NoteHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/collection/p1set/NoteHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/Demo01/HelloVuejs.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,9 +43,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
         <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -149,13 +87,15 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="C:\Program Files\Java\apache-maven-3.6.1\conf\settings_with_proxy_new.xml" />
+        <option name="mavenHome" value="C:/Program Files/Java/apache-maven-3.6.2" />
+        <option name="userSettingsFile" value="C:\Program Files\Java\apache-maven-3.6.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1UBFWnAECQqIwFVXI0V8JRdhYYT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="oracle" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -164,29 +104,31 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561428629787" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/vue/emallproj/emall2/src/components/common" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\vue_base" />
-      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\part11-组件高级" />
-      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\part1-vue中的插值操作" />
-      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue\js" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet\image" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\vue" />
-      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard" />
-      <recent name="C:\Users\22819\ideaWorkSpace\studyBoard\src\main\webapp\study_note" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\webapp\study_note\servlet" />
-      <recent name="C:\Users\riden\IdeaProjects\studyOnly\src\main\java\thread" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2\src\components\common" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2\src\network" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2\public" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\vuemall\src\components\common" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\vue_ad1\02-Vue_CLI\tabbardemo\src\assets\img\tabbar" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\vue_ad1\02-Vue_CLI\xmind" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\vue_base\part00-es6补充\ES6箭头函数" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\vue_ad1\01-webpack的使用\01-webpack起步\source\vue" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -201,22 +143,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainTest">
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <module name="studyBoard" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="API.jdbc.TestDemo2" />
+  <component name="RunManager" selected="Application.JdbcTemplateDemo">
+    <configuration name="EnumSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="API.collection.p1set.EnumSetDemo" />
       <module name="studyBoard" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.jdbc.*" />
+          <option name="PATTERN" value="API.collection.p1set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashSetAddRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="API.collection.p1set.HashSetAddRule" />
+      <module name="studyBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.collection.p1set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spring.jdbc.JdbcTemplateDemo" />
+      <module name="studyBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spring.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedHashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="API.collection.p1set.LinkedHashSetDemo" />
+      <module name="studyBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.collection.p1set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="API.collection.p1set.TreeSetDemo" />
+      <module name="studyBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="API.collection.p1set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,57 +216,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo01.formatterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studyBoard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.DataTimeFormatter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API.DataTimeFormatter" />
-      <option name="MAIN_CLASS_NAME" value="API.DataTimeFormatter.Demo01" />
-      <option name="METHOD_NAME" value="formatterTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapTest.MapTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studyBoard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API.collection" />
-      <option name="MAIN_CLASS_NAME" value="API.collection.MapTest" />
-      <option name="METHOD_NAME" value="MapTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapTest.java8ForMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studyBoard" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="API.collection" />
-      <option name="MAIN_CLASS_NAME" value="API.collection.MapTest" />
-      <option name="METHOD_NAME" value="java8ForMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,22 +312,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestDemo2" />
-      <item itemvalue="Application.MainTest" />
-      <item itemvalue="JUnit.MapTest.MapTest1" />
-      <item itemvalue="JUnit.MapTest.java8ForMap" />
-      <item itemvalue="JUnit.Demo01.formatterTest" />
+      <item itemvalue="Application.HashSetAddRule" />
+      <item itemvalue="Application.LinkedHashSetDemo" />
+      <item itemvalue="Application.TreeSetDemo" />
+      <item itemvalue="Application.EnumSetDemo" />
+      <item itemvalue="Application.JdbcTemplateDemo" />
       <item itemvalue="Tomcat Server.tom 9.0.16" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.TestDemo2" />
-        <item itemvalue="JUnit.Demo01.formatterTest" />
-        <item itemvalue="JUnit.MapTest.java8ForMap" />
-        <item itemvalue="JUnit.MapTest.MapTest1" />
+        <item itemvalue="Application.JdbcTemplateDemo" />
+        <item itemvalue="Application.EnumSetDemo" />
+        <item itemvalue="Application.TreeSetDemo" />
+        <item itemvalue="Application.LinkedHashSetDemo" />
+        <item itemvalue="Application.HashSetAddRule" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -527,6 +470,55 @@
       <workItem from="1579226437564" duration="5511000" />
       <workItem from="1579394167705" duration="13016000" />
       <workItem from="1579479937237" duration="4474000" />
+      <workItem from="1580778343164" duration="12479000" />
+      <workItem from="1580802414102" duration="424000" />
+      <workItem from="1580802850632" duration="67000" />
+      <workItem from="1580802929205" duration="3905000" />
+      <workItem from="1580867499425" duration="7597000" />
+      <workItem from="1580889691544" duration="1930000" />
+      <workItem from="1580950738857" duration="4016000" />
+      <workItem from="1581037094655" duration="11879000" />
+      <workItem from="1581228515809" duration="599000" />
+      <workItem from="1581300075389" duration="10964000" />
+      <workItem from="1581383140488" duration="17904000" />
+      <workItem from="1581471814291" duration="15285000" />
+      <workItem from="1581556161167" duration="12967000" />
+      <workItem from="1581646356899" duration="13176000" />
+      <workItem from="1581687579704" duration="3824000" />
+      <workItem from="1581724556548" duration="5952000" />
+      <workItem from="1581901408402" duration="15658000" />
+      <workItem from="1581988450194" duration="21865000" />
+      <workItem from="1582072416107" duration="1853000" />
+      <workItem from="1582162649132" duration="6071000" />
+      <workItem from="1582248908585" duration="14000" />
+      <workItem from="1582249394680" duration="6167000" />
+      <workItem from="1582502159516" duration="8189000" />
+      <workItem from="1582592447826" duration="4947000" />
+      <workItem from="1582674509640" duration="11003000" />
+      <workItem from="1582763653683" duration="6982000" />
+      <workItem from="1582871243008" duration="3158000" />
+      <workItem from="1583111217167" duration="6212000" />
+      <workItem from="1583131588454" duration="1680000" />
+      <workItem from="1583197298796" duration="10000" />
+      <workItem from="1583460321363" duration="74000" />
+      <workItem from="1583479696617" duration="6029000" />
+      <workItem from="1583714999223" duration="3159000" />
+      <workItem from="1583719061630" duration="754000" />
+      <workItem from="1583723318786" duration="7461000" />
+      <workItem from="1583802563659" duration="5730000" />
+      <workItem from="1583888255217" duration="3998000" />
+      <workItem from="1583916997851" duration="616000" />
+      <workItem from="1583920392536" duration="1217000" />
+      <workItem from="1584065880101" duration="54000" />
+      <workItem from="1584068333908" duration="244000" />
+      <workItem from="1584090972261" duration="9000" />
+      <workItem from="1584432747863" duration="1393000" />
+      <workItem from="1584492320294" duration="7681000" />
+      <workItem from="1584926696756" duration="271000" />
+      <workItem from="1584931617300" duration="4584000" />
+      <workItem from="1584956857947" duration="26000" />
+      <workItem from="1584957104386" duration="39000" />
+      <workItem from="1585013395306" duration="678000" />
     </task>
     <task id="LOCAL-00001" summary="idea 测试代码提交">
       <created>1559035858495</created>
@@ -591,7 +583,28 @@
       <option name="project" value="LOCAL" />
       <updated>1578043894859</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2020-02-05,学习完webpack">
+      <created>1580890505301</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580890505301</updated>
+    </task>
+    <task id="LOCAL-00011" summary="更新 2020_02_12 学习了ES6 Promise">
+      <created>1581501001167</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581501001167</updated>
+    </task>
+    <task id="LOCAL-00012" summary="更新 2020_03_09 java stream review">
+      <created>1583741123866</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583741123866</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +632,10 @@
     <MESSAGE value="更新 2019_12_19 14:42" />
     <MESSAGE value="更新 2020_01_02" />
     <MESSAGE value="更新 2020_01_03 开始了vue的学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 2020_01_03 开始了vue的学习" />
+    <MESSAGE value="2020-02-05,学习完webpack" />
+    <MESSAGE value="更新 2020_02_12 学习了ES6 Promise" />
+    <MESSAGE value="更新 2020_03_09 java stream review" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 2020_03_09 java stream review" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -640,7 +656,7 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/API/collection/CollectionTest.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/API/collection/Outdated/CollectionTest.java</url>
           <line>27</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -648,6 +664,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/API/jdbc/TestDemo2.java</url>
           <line>24</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainTest.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/vue/emallproj/emall2/src/views/home/childcomponents/HomePopular.vue</url>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
