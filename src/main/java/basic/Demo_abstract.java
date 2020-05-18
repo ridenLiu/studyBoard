@@ -23,6 +23,8 @@ public  class Demo_abstract {
 }
 
 abstract class Ab1{
+    int a = 1;
+    int b = 2;
 
     Ab1(){
         System.out.println("ab1's construct");

@@ -8,7 +8,8 @@
 <body>
 <div id="app">
     <!--v-bind不支持大写字母，如果变量名有大写字母，则用“-”（横杠）表示下一个字母为大写字母-->
-    <cpn1 v-bind:c-info="info" :cmessage="message"></cpn1>
+    <!--但是v-bind的值(双引号包起来的值)是支持双引号的-->
+    <cpn1 v-bind:c-info="info" v-bind:cmessage="messageL"></cpn1>
 </div>
 
 
@@ -16,6 +17,7 @@
 <template id="cpn1_id">
     <div>
         <h2>{{cInfo}}</h2>
+        <h2>{{cmessage}}</h2>
     </div>
 </template>
 
@@ -27,10 +29,15 @@
         template: '#cpn1_id',
         props: {
             cInfo: {
-                type: Object,
-                default() {
+                type: Object,// 指定类型
+                default() {// 默认值
                     return {};
-                }
+                },
+                // required: true // 是否强制需要
+            },
+            cmessage: {
+                type: String,
+                required: true
             }
         }
     };
@@ -39,7 +46,7 @@
     const app = new Vue({
         el: '#app',
         data: {
-            message: 'hello',
+            messageL: 'hello',
             movies: ['test1', 'riden', 'read dead'],
             info: {
                 name: 'riden',

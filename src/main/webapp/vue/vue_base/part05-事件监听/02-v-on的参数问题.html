@@ -13,7 +13,7 @@
     <button @click="btn1Click">按钮2</button>
 
     <button @click="btn2Click('vue...')">按钮3</button>
-    <!--如果传参数，vue会将浏览器生产的event事件对象作为参数传入方法-->
+    <!--如果不传参数，vue会将浏览器生产的event事件对象作为参数传入方法-->
     <button @click="btn2Click">按钮4</button>
     <!-- 方法定义是，需要event参数，同时需要其他参数-->
     <button @click="btn3Click('vue js str',$event)">按钮5</button>

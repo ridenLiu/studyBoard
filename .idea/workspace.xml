@@ -6,12 +6,41 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="更新 2020_01_03 开始了vue的学习">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/riden.xml" afterDir="false" />
+    <list default="true" id="0723958b-5d0e-41d4-8efd-b664dd2cbe8d" name="Default" comment="can't remember what had added.2020/3/24">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/riden.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/riden.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/API/collection/p1set/NoteHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/API/collection/p1set/NoteHashSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basic/Demo_abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/Demo_abstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/ES6箭头函数/02-箭头函数中this的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part00-es6补充/ES6箭头函数/02-箭头函数中this的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/03-v-html指令.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/03-v-html指令.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/06-v-cloak.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part02-vue中的插值操作/06-v-cloak.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/01-v-bind的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part03-动态绑定属性/01-v-bind的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/01-计算属性的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/01-计算属性的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/02-计算属性的复杂操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/02-计算属性的复杂操作.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/03-计算属性的setter和getter方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part04-计算属性/03-计算属性的setter和getter方法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/01-v-on的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/01-v-on的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/02-v-on的参数问题.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/02-v-on的参数问题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/03-v-on修饰符.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part05-事件监听/03-v-on修饰符.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/02-v-for遍历对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/03-v-for使用过程添加key.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/04-那些数组的方法是响应式的.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part07-循环遍历/04-那些数组的方法是响应式的.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part08-图书购物车/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part08-图书购物车/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/01-v-model的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/01-v-model的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/03-v-model结合radio类型.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/03-v-model结合radio类型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/04-v-model和checkbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/04-v-model和checkbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/06-v-model的修饰符的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part09-表单绑定v-model/06-v-model的修饰符的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/01-组件化的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/01-组件化的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/05-组件模板的分离写法.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/05-组件模板的分离写法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/07-组件通信-父组件向子组件.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/07-组件通信-父组件向子组件.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/08-组件通信-父传子(props中的驼峰标识).html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/08-组件通信-父传子(props中的驼峰标识).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/09-组件通信-子传父.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/09-组件通信-子传父.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/11-组件访问-父访问子.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part10-组件化开发/11-组件访问-父访问子.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/01-slot-插槽的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/01-slot-插槽的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/02-slot-具名插槽的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/02-slot-具名插槽的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/03-slot-编译作用域.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/03-slot-编译作用域.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/04-作用域插槽的案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vue/vue_base/part11-组件高级/04-作用域插槽的案例.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +73,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="Vue Single File Component" />
-        <option value="HTML File" />
         <option value="spring-beans.schema" />
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -104,7 +133,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561428629787" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/vue/emallproj/emall2/src/components/common" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/easyUIs/chartDemo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -117,18 +146,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\easyUIs\chartDemo" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\ECharts" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\board" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\html&amp;css\01-html基础" />
       <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2\src\components\common" />
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2\src\network" />
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2\public" />
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2" />
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\emall2\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\emallproj\vuemall\src\components\common" />
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\vue_ad1\02-Vue_CLI\tabbardemo\src\assets\img\tabbar" />
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\vue_ad1\02-Vue_CLI\xmind" />
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\vue_base\part00-es6补充\ES6箭头函数" />
-      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\vue\vue_ad1\01-webpack的使用\01-webpack起步\source\vue" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\ECharts\demos\dataset" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\ECharts\demos" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\board\vue-cli\vue-router-demo\src\components\main_show" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\board\companydir" />
+      <recent name="C:\Users\riden\IdeaProjects\studyBoard\src\main\webapp\html&amp;css\note\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -143,23 +172,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JdbcTemplateDemo">
+  <component name="RunManager" selected="Application.MainTest">
     <configuration name="EnumSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="API.collection.p1set.EnumSetDemo" />
-      <module name="studyBoard" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="API.collection.p1set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashSetAddRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="API.collection.p1set.HashSetAddRule" />
       <module name="studyBoard" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -186,13 +201,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedHashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="API.collection.p1set.LinkedHashSetDemo" />
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <module name="studyBoard" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="API.jdbc.TransactionDemo" />
       <module name="studyBoard" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.collection.p1set.*" />
+          <option name="PATTERN" value="API.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,13 +223,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="API.collection.p1set.TreeSetDemo" />
+    <configuration name="TransactionDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="API.jdbc.TransactionDemo2" />
       <module name="studyBoard" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="API.collection.p1set.*" />
+          <option name="PATTERN" value="API.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,20 +335,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashSetAddRule" />
-      <item itemvalue="Application.LinkedHashSetDemo" />
-      <item itemvalue="Application.TreeSetDemo" />
       <item itemvalue="Application.EnumSetDemo" />
       <item itemvalue="Application.JdbcTemplateDemo" />
+      <item itemvalue="Application.MainTest" />
+      <item itemvalue="Application.TransactionDemo" />
+      <item itemvalue="Application.TransactionDemo2" />
       <item itemvalue="Tomcat Server.tom 9.0.16" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.TransactionDemo2" />
+        <item itemvalue="Application.TransactionDemo" />
         <item itemvalue="Application.JdbcTemplateDemo" />
         <item itemvalue="Application.EnumSetDemo" />
-        <item itemvalue="Application.TreeSetDemo" />
-        <item itemvalue="Application.LinkedHashSetDemo" />
-        <item itemvalue="Application.HashSetAddRule" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +541,56 @@
       <workItem from="1584931617300" duration="4584000" />
       <workItem from="1584956857947" duration="26000" />
       <workItem from="1584957104386" duration="39000" />
-      <workItem from="1585013395306" duration="678000" />
+      <workItem from="1585013395306" duration="889000" />
+      <workItem from="1585028482322" duration="334000" />
+      <workItem from="1585118806989" duration="10932000" />
+      <workItem from="1585185317025" duration="4845000" />
+      <workItem from="1585271610202" duration="10452000" />
+      <workItem from="1585616446557" duration="4340000" />
+      <workItem from="1586482654346" duration="6132000" />
+      <workItem from="1586507320979" duration="13150000" />
+      <workItem from="1586569077631" duration="5872000" />
+      <workItem from="1586585283389" duration="6141000" />
+      <workItem from="1586651778756" duration="12755000" />
+      <workItem from="1586735322215" duration="6777000" />
+      <workItem from="1586824872150" duration="5130000" />
+      <workItem from="1586931359863" duration="7868000" />
+      <workItem from="1586996011163" duration="17340000" />
+      <workItem from="1587082538368" duration="3846000" />
+      <workItem from="1587113631643" duration="5512000" />
+      <workItem from="1587171249809" duration="7000" />
+      <workItem from="1587173160977" duration="6191000" />
+      <workItem from="1587344714075" duration="1073000" />
+      <workItem from="1587432982290" duration="11300000" />
+      <workItem from="1587622914290" duration="2148000" />
+      <workItem from="1587690094321" duration="66000" />
+      <workItem from="1587693549685" duration="697000" />
+      <workItem from="1587907191091" duration="670000" />
+      <workItem from="1587947649365" duration="414000" />
+      <workItem from="1587948540515" duration="551000" />
+      <workItem from="1587970287997" duration="9689000" />
+      <workItem from="1588035943073" duration="2811000" />
+      <workItem from="1588129177630" duration="17244000" />
+      <workItem from="1588204084260" duration="1274000" />
+      <workItem from="1588384566188" duration="1270000" />
+      <workItem from="1588725842576" duration="95000" />
+      <workItem from="1588731633596" duration="16227000" />
+      <workItem from="1588811523732" duration="459000" />
+      <workItem from="1588843079134" duration="1398000" />
+      <workItem from="1588858103737" duration="750000" />
+      <workItem from="1588897532086" duration="434000" />
+      <workItem from="1588922379984" duration="2012000" />
+      <workItem from="1588996553876" duration="4355000" />
+      <workItem from="1589008620360" duration="3548000" />
+      <workItem from="1589013578588" duration="1106000" />
+      <workItem from="1589072988154" duration="14151000" />
+      <workItem from="1589158905542" duration="1253000" />
+      <workItem from="1589176215903" duration="6596000" />
+      <workItem from="1589203977696" duration="1135000" />
+      <workItem from="1589242989654" duration="276000" />
+      <workItem from="1589246716997" duration="2485000" />
+      <workItem from="1589376016437" duration="1450000" />
+      <workItem from="1589415918354" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="idea 测试代码提交">
       <created>1559035858495</created>
@@ -604,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583741123866</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="can't remember what had added.2020/3/24">
+      <created>1585014259023</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585014259023</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +714,8 @@
     <MESSAGE value="2020-02-05,学习完webpack" />
     <MESSAGE value="更新 2020_02_12 学习了ES6 Promise" />
     <MESSAGE value="更新 2020_03_09 java stream review" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 2020_03_09 java stream review" />
+    <MESSAGE value="can't remember what had added.2020/3/24" />
+    <option name="LAST_COMMIT_MESSAGE" value="can't remember what had added.2020/3/24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -665,11 +745,6 @@
           <line>24</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MainTest.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/webapp/vue/emallproj/emall2/src/views/home/childcomponents/HomePopular.vue</url>
           <option name="timeStamp" value="23" />
@@ -694,94 +769,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>studyBoard:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>studyBoard</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

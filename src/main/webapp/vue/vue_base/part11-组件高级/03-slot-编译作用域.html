@@ -7,17 +7,23 @@
 <body>
 
 <div id="app">
+    <!-- 该处使用的是vue实例的变量-->
     <cpn v-show="isShow"></cpn>
 </div>
 
 <template id="cpn1">
     <div>
         <h2>子组件</h2>
+        <!-- 该处使用的是组件的变量-->
         <button v-show="isShow">按钮</button>
     </div>
 </template>
 <script src="../../js/vue.js"></script>
 <script>
+    /**
+     * 在标签上使用变量，都会从当前模板查找的
+     * 父模板使用的都是父类的变量，子模板使用的都是子类的模板
+     */
     const app = new Vue({
         el: '#app',
         data: {

@@ -25,10 +25,13 @@
 </template>
 
 <script>
-    // 注册全局主键
+    // 注册全局组件
+    // 组件中不能直接访问Vue实例中的data
     Vue.component('cpn_1', {
         template: '#cpn1_id',
-        data() {// 使用组件的data属性保存数据，但该属性对应的是方法
+        data() {
+            // 使用组件的data属性保存数据，但该属性对应的是方法
+            // 因为每个组件的数据都因该是独立的一份
             return {
                 str: "this is cpn's data"
             }

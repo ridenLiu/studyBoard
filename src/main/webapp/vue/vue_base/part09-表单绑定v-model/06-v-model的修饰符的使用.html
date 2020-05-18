@@ -7,14 +7,15 @@
 </head>
 <body>
 <div id="app">
+    <!--多个修饰符可以同时使用-->
     <!-- 1. 修饰符: lazy,只有当标签失去焦点或者输入回车后才会改变值   -->
     <input type="text" v-model.lazy="message"/>
     <h2>{{message}}</h2>
 
-    <!--2. 修饰符:number-->
+    <!--2. 修饰符:number,v-model默认赋值类型是String类型-->
     <input type="number" v-model.number="num"/>
     <h2>{{num}}-{{typeof num}}</h2>
-    <!--3. 修饰符 trim-->
+    <!--3. 修饰符 trim,赋值时去除字符两端的字符-->
     <input type="number" v-model.trim="str"/>
     <h2>str: {{str}}</h2>
 </div>
@@ -25,7 +26,7 @@
         data: {
             message: 'hello',
             num: 0,
-            str:''
+            str: ''
         }
     });
 </script>

@@ -10,6 +10,7 @@
         <input type="checkbox" id="agree" v-model="isAgree">同意
     </label>
     <h3>{{isAgree}}</h3>
+    <button v-bind:disabled="!isAgree">下一步</button>
     <br/>
     <input name="hobbit" type="checkbox" value="蓝球" v-model="hobbies">篮球
     <input name="hobbit" type="checkbox" value="足球" v-model="hobbies">足球

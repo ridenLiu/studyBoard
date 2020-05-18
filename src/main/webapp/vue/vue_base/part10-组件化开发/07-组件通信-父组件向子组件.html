@@ -11,7 +11,7 @@
 </div>
 
 
-<!--父类模板-->
+<!--子类模板-->
 <template id="cpn1_id">
     <div>
         <h2>{{cmovies}}</h2>
@@ -25,10 +25,10 @@
     // 父传子:props
     const cpn1 = {
         template: '#cpn1_id',
-        // 1. 使用数组
+        // 1. 使用数组模式
         props: ['cmovies', 'cmessage'],
         // props:{
-        //2. 类型限制
+        //2. 类型限制模式
         // cmovies: Array,
         //3. 提供默认值，并指定类型
         // cmessage:{

@@ -7,8 +7,10 @@
 <body>
 
 <div id="app">
+    <cpn></cpn>
     <cpn>
         <!--获取子组件中的数据,vue2.5x以前需要使用template模板-->
+        <!--该处使用slot-scope来获取子类的slot对象，再通过该对象来获取插槽中的数据-->
         <template slot-scope="slot">
             <span v-for="item in slot.arr"> {{item}} </span>
 
@@ -19,6 +21,7 @@
 <template id="cpn1">
     <div>
         <h2>子组件</h2>
+        <!--可以在此处自定义一个变量，让后让父类通过slot-scope获取该slot对象-->
         <slot :arr="pLanguages">
             <ul>
                 <li v-for="item of pLanguages">{{item}}</li>
@@ -28,6 +31,9 @@
 </template>
 <script src="../../js/vue.js"></script>
 <script>
+    /**
+     * 父组件替换插槽的标签，但是内容由子组件来提供
+     */
     const app = new Vue({
         el: '#app',
         data: {

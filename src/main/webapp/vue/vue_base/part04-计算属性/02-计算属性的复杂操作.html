@@ -16,7 +16,7 @@
             books: [
                 {id: 100, name: 'java编程思想', price: 75},
                 {id: 101, name: '深入理解计算机原理', price: 71},
-                {id: 102, name: '现在操作系统', price: 88},
+                {id: 102, name: '现代操作系统', price: 88},
             ]
         },
         // 计算属性
@@ -25,7 +25,7 @@
                 let totalPrice = 0;
                 const books = this.books;
                 for (let i = 0; i < books.length; i++) {
-                    totalPrice+=books[i].price;
+                    totalPrice += books[i].price;
                 }
                 return totalPrice;
             }

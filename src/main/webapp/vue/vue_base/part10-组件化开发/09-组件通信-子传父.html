@@ -39,6 +39,7 @@
             btnClick(item) {
                 // alert("get item: " + item.id);
                 // 发射自定义时间,再再父组件上监听(v-on)该事件
+                // this.$emit(事件名称,发射值)
                 this.$emit('item-click', item);
             }
         }
@@ -49,6 +50,7 @@
         el: '#app',
         data: {},
         methods: {
+            // 默认会接受该值
             cpnClick(item) {
                 alert("running: " + item.id);
             }

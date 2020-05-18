@@ -8,7 +8,7 @@
 <body>
 <div id="app">
     <ul>
-        <li v-for="item in season" :key="item">{{item}}</li>
+        <li v-for="(item,index) in season" :key="item+index">{{item}}</li>
     </ul>
     <button @click="btnClick">按钮</button>
 </div>
@@ -23,16 +23,16 @@
             btnClick() {
                 // 响应式方法的判断
                 //一. push方法(T)
-                // this.season.push('aaa','bb');
-                //二. 通过索引值修改数组中的元素 (T)
-                //this.season[2] = 'fall';
+                this.season.push('aaa','bb');
+                //二. 通过索引值修改数组中的元素 (F)
+                // this.season[2] = 'fall';
 
 
                 /**
                  *  三. pop(),删除数组中的最后一个元素 (F)
                  *  可以使用vue方法修改指定数组下标的值
                 */
-                Vue.set(this.season,2,'fall');
+                // Vue.set(this.season,2,'fall');
                 // this.season.pop();
                 // shift(),删除数组中的第一个元素 (T)
                 // this.season.shift();

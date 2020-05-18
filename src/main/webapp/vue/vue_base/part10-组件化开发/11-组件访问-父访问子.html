@@ -8,6 +8,7 @@
 <body>
 
 <div id="app">
+    <!--使用ref相当与给子组件一个名字,好让父组件获取子组件-->
     <cpn ref="aaa"></cpn>
     <cpn></cpn>
     <button @click="btnButton">打印</button>
@@ -27,23 +28,25 @@
             num1: 1,
             num2: 0
         },
-        methods:{
-            btnButton(){
-                //1. $children是一个数组,包含当前组件的所有字类.但是使用下标不常用
+        methods: {
+            btnButton() {
+                //1. $children是一个数组,包含当前组件的所有子类.但是使用下标不常用
+                // 因为下标可能会变
                 console.log(this.$children);
                 this.$children[0].showMessage();
                 //2. $ref 对象类型,默认为对象类型
+                // 父类对象访问子类对象通常使用$refs访问
                 console.log(this.$refs.aaa);
             }
         },
         components: {
             cpn: {
                 template: '#cpn_id',
-                methods:{
-                    showMessage(){
+                methods: {
+                    showMessage() {
                         console.log('showMessage is running');
                     }
-                },data(){
+                }, data() {
                     return {
                         name: 'this my name'
                     }

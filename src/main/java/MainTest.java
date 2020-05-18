@@ -1,30 +1,40 @@
-import API.JWT.JwtUtil;
-import io.jsonwebtoken.Claims;
+import com.alibaba.fastjson.JSONObject;
+import utils.FileUtil;
 
-import java.security.NoSuchAlgorithmException;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.*;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.Date;
+
+import static java.io.File.separator;
 
 public class MainTest {
 
-    public static void main(String[] args) throws SQLException, NoSuchAlgorithmException {
-        Map<String, Object> map = new HashMap<>();
-        map.put("name", "riden");
-        map.put("password", "123456");
-        map.put("id", "111111");
-        String res = JwtUtil.createJWT(10000L, map);
-        System.out.println(res);
 
-
-        // 解密token
-        Claims claims = JwtUtil.parseJWT(res,map);
-        System.out.println(claims);
+    public static void main(String[] args) throws IOException {
+        String s = separator;
+        String filePath = "main" + s + "resources" + s + "json" + s + "testFile.json";
+//        String res = FileUtil.getJsonStr(filePath);
+//        System.out.println("res : ");
+        System.out.println(filePath);
     }
 
-    // eyJhbGciOiJIUzI1NiJ9
-    // .eyJzdWIiOiJyaWRlbiIsInBhc3N3b3JkIjoiMTIzNDU2IiwiaWQiOiIxMTExMTEiLCJleHAiOjE1ODM0ODQyMjMsImlhdCI6MTU4MzQ4NDIxMywianRpIjoiM2YxY2Y4OTktZjhlOC00ODI3LWE5ODMtZjkxNjg3NjBiYzljIiwidXNlcm5hbWUiOiJyaWRlbiJ9
-    // .v0ZAivyiUQ_pckx8g9YDaxD6BPI1TtuYuvug4YzCP6A
+    static void test1() throws IOException {
+        JSONObject json = new JSONObject();
+        JSONObject option = new JSONObject();
+        option.put("name", "统建项目曲线");
+        option.put("id", new Date().getTime());
+
+        json.put("name", "riden");
+        json.put("age", 21);
+        json.put("address", "北京1111");
+        json.put("option", option);
+
+        String s = separator;
+        String filePath = "main" + s + "resources" + s + "json" + s + "testFile.json";
+        FileUtil.saveJsonFile(filePath, json);
+        System.out.println("over");
+    }
+
 
 }
 
